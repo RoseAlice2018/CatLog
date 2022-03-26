@@ -75,6 +75,68 @@ namespace CatLog{
             /**
              * @brief 返回文件名
              */
+            const char* getFile()const {return m_file;}
+
+            /**
+             * @brief 返回行号
+             */
+            int32_t getLine() const {return m_line;}
+
+            /**
+             * @brief 返回耗时
+             */
+            uint32_t getElapse() const {return m_elpase;}
+
+            /**
+             * @brief 返回线程Id
+             */
+            uint32_t getThreadId() const {return m_threadId;}
+
+            /**
+             * @brief 返回协程Id
+             */
+            uint32_t getFiberId() const {return m_fiberId;}
+
+            /**
+             * @brief 返回时间
+             */
+            uint64_t getTime() const {return m_time;}
+
+            /**
+             * @brief 返回线程名称
+             */
+            const std::string& getThreadName() {return m_threadName;}
+
+            /**
+             * @brief 返回日志内容
+             */
+            std::string getContent() {return m_ss.str();}
+
+            /**
+             * @brief 返回日志器
+             */
+            std::shared_ptr<Logger> getLogger()const {return m_logger;}
+
+            /**
+             * @brief 返回日志级别
+             */
+            LogLevel::Level getLevel() const {return m_level;}
+
+            /**
+             * @brief 返回日志内容字符串流
+             */
+            std::stringstream& getSS(){return m_ss;}
+
+            /**
+             * @brief 格式化写入日志内容
+             */
+            void format(const char* fmt, ...);
+
+            /**
+             * @brief 格式化写入日志内容
+             */
+            void format(const char* fmt,va_list al);
+
         private:
             // 文件名
             const char* m_file = nullptr;
