@@ -1,3 +1,4 @@
+
 /**
  * @file log.h
  * @brief 日志库头文件
@@ -13,6 +14,10 @@
 #include <memory>
 #include <vector>
 #include <stddef.h>
+#include <sstream>
+#include <fstream>
+#include <map>
+#include <mutex.h>
 namespace CatLog{
     class Logger;
     /**
@@ -69,8 +74,8 @@ namespace CatLog{
              * @param[in] thread_name 线程名称
              */
             LogEvent(std::shared_ptr<Logger>logger,LogLevel::Level LogLevel
-                    ,const char* file,__int32_t line,__uint32_t elapse,
-                    ,__uint32_t thread_id,__uint32_t fiber_id,uint)
+                    ,const char* file,int32_t line,int32_t elapse,
+                    uint32_t thread_id,uint32_t fiber_id,uint64_t time,const char* thread_name);
             
             /**
              * @brief 返回文件名
@@ -141,15 +146,15 @@ namespace CatLog{
             // 文件名
             const char* m_file = nullptr;
             // 行号
-            __int32_t m_line = 0;
+            int32_t m_line = 0;
             // 程序启动开始到现在的毫秒数
-            __uint32_t m_elpase = 0;
+            uint32_t m_elpase = 0;
             // 线程ID
-            __uint32_t m_threadId = 0;
+            uint32_t m_threadId = 0;
             // 协程ID
-            __uint32_t m_fiberId = 0;
+            uint32_t m_fiberId = 0;
             // 时间戳
-            __uint64_t m_time = 0;
+            uint64_t m_time = 0;
             // 线程名称
             std::string m_threadName;
             // 日志内容流
@@ -280,7 +285,7 @@ namespace CatLog{
         friend class Logger;
         public:
             typedef std::shared_ptr<LogAppender> ptr;
-            typedef SpinLock MutexType;
+            typedef MutexLock MutexType;
 
             /**
              * @brief 析构函数
@@ -339,7 +344,7 @@ namespace CatLog{
         friend class LoggerManager;
         public:
             typedef std::shared_ptr<Logger> ptr;
-            typedef Spinlock MutexType;
+            typedef MutexLock MutexType;
 
             /**
              * @brief 构造函数
@@ -456,7 +461,7 @@ namespace CatLog{
         public:
             typedef std::shared_ptr<StdoutLogAppender> ptr;
             void log(Logger::ptr logger,LogLevel::Level level,LogEvent::ptr event)override;
-            std::string  
+            std::string  toYamlString() override;
     };
 
     /**
@@ -479,9 +484,10 @@ namespace CatLog{
             // 文件路径
             std::string m_filename;
             // 文件流
-            std::ofstream m_filestream;
+           std::ofstream m_filestream;
             // 上次重新打开时间
-            __uint64_t m_lastTime = 0;
+
+            uint64_t m_lastTime = 0;
     };
 
     /**
@@ -489,7 +495,7 @@ namespace CatLog{
      */
     class LoggerManager{
         public:
-            typedef Spinlock MutexType;
+            typedef MutexLock MutexType;
             /**
              * @brief 构造函数
              */

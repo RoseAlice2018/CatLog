@@ -6,7 +6,7 @@ namespace CatLog{
     /**
      * @brief loglevel类实现
      */
-    const char* LogLevel::ToString(LogLevel::Level level){
+    const char* LogLevel::Tostring(LogLevel::Level level){
         switch(level){
             #define XX(name)\
                 case LogLevel::name:\
@@ -18,8 +18,7 @@ namespace CatLog{
                 XX(WARN);
                 XX(ERROR);
                 XX(FATAL);
-            #undef
-
+            #undef XX
             default:
                 return "UNKNOW";
         }
@@ -78,7 +77,8 @@ namespace CatLog{
      */
     void LogAppender::setFormatter(LogFormatter::ptr val)
     {
-        MutexType::Lock lock(m_mutex);
+        //MutexType::Lock lock(m_mutex);
+        m_mutex.lock();
         m_formatter = val;
         if(m_formatter){
             m_hasFormatter = true;
@@ -87,10 +87,11 @@ namespace CatLog{
         {
             m_hasFormatter = false;
         }
+        m_mutex.unlock();
     }
     
     LogFormatter::ptr LogAppender::getFormatter(){
-        MutexType::Lock lock(m_mutex);
+
         return m_formatter;
     }
 
@@ -151,7 +152,7 @@ namespace CatLog{
                 }
     };
 
-    class DataTimeFormatItem : public LogFormatter::FormatItem{
+    class  DataTimeFormatItem : public LogFormatter::FormatItem{
         public:
             DataTimeFormatItem(const std::string& format = "%Y-%m-%d %H:%M:%S")
                 :m_format(format){
