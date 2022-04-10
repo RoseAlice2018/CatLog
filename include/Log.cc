@@ -145,7 +145,7 @@ namespace CatLog{
 
     class ThreadNameFormatItem : public LogFormatter::FormatItem{
         public:
-            ThreadIdFormatItem(const std::string& str = ""){}
+            explicit ThreadNameFormatItem(const std::string& str = ""){}
             void format(std::ostream& os,Logger::ptr logger,LogLevel::Level level,
                 LogEvent::ptr event)override{
                     os << event->getThreadName();
@@ -154,7 +154,7 @@ namespace CatLog{
 
     class  DataTimeFormatItem : public LogFormatter::FormatItem{
         public:
-            DataTimeFormatItem(const std::string& format = "%Y-%m-%d %H:%M:%S")
+            explicit DataTimeFormatItem(const std::string& format = "%Y-%m-%d %H:%M:%S")
                 :m_format(format){
                     if(m_format.empty()){
                         m_format = "%Y-%m-%d %H:%M:%S";
@@ -731,3 +731,5 @@ void LoggerManager::init() {
 
 
 }
+
+

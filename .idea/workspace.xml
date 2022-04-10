@@ -11,15 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d35dfd30-eeeb-43fa-af86-fc27dd15860b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mutex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Log.cc" beforeDir="false" afterPath="$PROJECT_DIR$/include/Log.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Log.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Log.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/leveldb_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/leveldb_test.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="d35dfd30-eeeb-43fa-af86-fc27dd15860b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,14 +53,9 @@
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CatLog" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CatLog" TARGET_NAME="CatLog" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CatLog" RUN_TARGET_NAME="CatLog" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -89,7 +76,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649321895004</updated>
-      <workItem from="1649321897034" duration="18198000" />
+      <workItem from="1649321897034" duration="19693000" />
+      <workItem from="1649523115834" duration="714000" />
+      <workItem from="1649524022721" duration="2238000" />
     </task>
     <servers />
   </component>
@@ -106,6 +95,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

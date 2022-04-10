@@ -72,10 +72,11 @@ namespace CatLog{
              * @param[in] fiber_id 协程id
              * @param[in] time 日志事件（秒）
              * @param[in] thread_name 线程名称
+             * @param[in] service_name 服务名称
              */
             LogEvent(std::shared_ptr<Logger>logger,LogLevel::Level LogLevel
                     ,const char* file,int32_t line,int32_t elapse,
-                    uint32_t thread_id,uint32_t fiber_id,uint64_t time,const char* thread_name);
+                    uint32_t thread_id,uint32_t fiber_id,uint64_t time,const char* thread_name,const char* service_name);
             
             /**
              * @brief 返回文件名
@@ -159,6 +160,8 @@ namespace CatLog{
             std::string m_threadName;
             // 日志内容流
             std::stringstream m_ss;
+            // 服务名称
+            std::string m_serviceName;
             // 日志器
             std::shared_ptr<Logger> m_logger;
             // 日志等级
@@ -222,7 +225,7 @@ namespace CatLog{
              * 
              * 默认格式 "%d{%Y-%m-%d %H:%M:%S}%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
              */
-            LogFormatter(const std::string& pattern);
+            explicit LogFormatter(const std::string& pattern);
 
             /**
              * @brief 返回格式化日志文本
