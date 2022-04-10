@@ -170,6 +170,8 @@ namespace CatLog{
                     strftime(buf,sizeof(buf),m_format.c_str(),&tm);
                     os << buf;               
                 }
+        private:
+            std::string m_format;
     };
 
     class FilenameFormatItem : public LogFormatter::FormatItem {
@@ -228,16 +230,17 @@ namespace CatLog{
     LogEvent::LogEvent(std::shared_ptr<Logger> logger, LogLevel::Level level
             ,const char* file, int32_t line, uint32_t elapse
             ,uint32_t thread_id, uint32_t fiber_id, uint64_t time
-            ,const std::string& thread_name)
+            ,const std::string& thread_name,const std::string& service_name)
     :m_file(file)
     ,m_line(line)
-    ,m_elapse(elapse)
+    ,m_elpase(elapse)
     ,m_threadId(thread_id)
     ,m_fiberId(fiber_id)
     ,m_time(time)
     ,m_threadName(thread_name)
     ,m_logger(logger)
-    ,m_level(level) {
+    ,m_level(level)
+    ,m_serviceName(service_name){
     }
 
     Logger::Logger(const std::string& name)
@@ -334,16 +337,17 @@ namespace CatLog{
     }
 
     void FileLogAppender::log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event) {
-    if(level >= m_level) {
-        uint64_t now = event->getTime();
-        if(now >= (m_lastTime + 3)) {
-            reopen();
-            m_lastTime = now;
-        }
-        MutexType::Lock lock(m_mutex);
-        //if(!(m_filestream << m_formatter->format(logger, level, event))) {
-        if(!m_formatter->format(m_filestream, logger, level, event)) {
-            std::cout << "error" << std::endl;
+        if (level >= m_level) {
+            uint64_t now = event->getTime();
+            if (now >= (m_lastTime + 3)) {
+                reopen();
+                m_lastTime = now;
+            }
+            MutexType::Lock lock(m_mutex);
+            //if(!(m_filestream << m_formatter->format(logger, level, event))) {
+            if (!m_formatter->format(m_filestream, logger, level, event)) {
+                std::cout << "error" << std::endl;
+            }
         }
     }
 
@@ -465,7 +469,7 @@ namespace CatLog{
         XX(c, NameFormatItem),              //c:日志名称
         XX(t, ThreadIdFormatItem),          //t:线程id
         XX(n, NewLineFormatItem),           //n:换行
-        XX(d, DateTimeFormatItem),          //d:时间
+        XX(d, DataTimeFormatItem),          //d:时间
         XX(f, FilenameFormatItem),          //f:文件名
         XX(l, LineFormatItem),              //l:行号
         XX(T, TabFormatItem),               //T:Tab

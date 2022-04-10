@@ -15,6 +15,7 @@ namespace CatLog{
          * @brief 构造函数
          * @param mutex
          */
+        Mutex(){}
         Mutex(std::mutex mutex){
 
         }
