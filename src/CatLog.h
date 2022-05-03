@@ -5,6 +5,7 @@
 #ifndef CATLOG_CATLOG_H
 #define CATLOG_CATLOG_H
 #include <string>
+#include <list>
 namespace CatLogNew{
     class Logger;
     /**
