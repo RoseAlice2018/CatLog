@@ -12,8 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35dfd30-eeeb-43fa-af86-fc27dd15860b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test/test_log.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/CatLog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/CatLog.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CatLog.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/CatLog.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,7 @@
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="CatLog" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CatLog" TARGET_NAME="CatLog" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CatLog" RUN_TARGET_NAME="CatLog" TEST_MODE="SUITE_TEST">
@@ -83,7 +83,7 @@
       <workItem from="1649321897034" duration="19693000" />
       <workItem from="1649523115834" duration="714000" />
       <workItem from="1649524022721" duration="11598000" />
-      <workItem from="1651059722066" duration="12495000" />
+      <workItem from="1651059722066" duration="25073000" />
     </task>
     <servers />
   </component>

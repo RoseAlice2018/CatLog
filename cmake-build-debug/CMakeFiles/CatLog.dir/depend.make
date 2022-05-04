@@ -7,6 +7,7 @@ CMakeFiles/CatLog.dir/third_party/leveldb/db/c_test.c.o: \
  ../third_party/leveldb/db/c_test.c
 CMakeFiles/CatLog.dir/include/Log.cc.o: \
  ../src/Log.h \
+ ../src/mutex.h \
  ../include/Log.cc
 CMakeFiles/CatLog.dir/test/leveldb_test.cpp.o: \
  ../third_party/leveldb/include/leveldb/db.h \

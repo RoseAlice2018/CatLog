@@ -6,6 +6,91 @@
 #define CATLOG_CATLOG_H
 #include <string>
 #include <list>
+
+/**
+ * @brief 使用流式方式将日志级别level的日志写入logger
+ */
+#define CAT_LOG_LEVEL(logger,level) \
+    if(logger->getLevel() <= level) \
+       CatLogNew::LogEventWrap(CatLogNew::LogEvent::ptr(new CatLogNew::LogEvent(logger, level, \
+                        __FILE__, __LINE__, 0, CatLogNew::GetThreadId(),\
+                CatLogNew::GetFiberId(), time(0), CatLogNew::Thread::GetName()))).getSS()
+
+/**
+ * @brief 使用流式方式将日志级别debug的日志写入到logger
+ */
+#define CAT_LOG_DEBUG(logger) CAT_LOG_LEVEL(logger,CATLOGNEW::LogLevel::DEBUG)
+
+/**
+ * @brief 使用流式方式将日志级别info的日志写入到logger
+ */
+
+#define CAT_LOG_INFO(logger) CAT_LOG_LEVEL(logger,CATLOGNEW::LogLevel::INFO)
+
+/**
+ * @brief 使用流式方式将日志级别warn的日志写入到logger
+ */
+#define CAT_LOG_WARN(logger) CAT_LOG_LEVEL(logger,CATLOGNEW::LogLevel::WARN)
+
+/**
+ * @brief 使用流式方式将日志级别error的日志写入到logger
+ */
+#define CAT_LOG_ERROR(logger) CAT_LOG_LEVEL(logger,CATLOGNEW::LogLevel::ERROR)
+
+/**
+ * @brief 使用流式方式将日志级别fatal到日志写入到logger
+ */
+#define CAT_LOG_FATAL(logger) CAT_LOG_LEVEL(logger,CATLOGNEW::LogLevel::FATAL)
+
+
+
+/**
+ * @brief 使用格式化方式将日志级别level到日志写入到logger
+ */
+#define CAT_LOG_FMT_LEVEL(logger, level, fmt, ...) \
+    if(logger->getLevel() <= level) \
+        CatLogNew::LogEventWrap(CatLogNew::LogEvent::ptr(new CatLogNew::LogEvent(logger, level, \
+                        __FILE__, __LINE__, 0, CatLogNew::GetThreadId(),\
+                CatLogNew::GetFiberId(), time(0), CatLogNew::Thread::GetName()))).getEvent()->format(fmt, __VA_ARGS__)
+
+/**
+ * @brief 使用格式化方式将日志级别debug的日志写入到logger
+ */
+#define CAT_LOG_FMT_DEBUG(logger, fmt, ...) CAT_LOG_FMT_LEVEL(logger, CatLogNew::LogLevel::DEBUG, fmt, __VA_ARGS__)
+
+
+/**
+ * @brief 使用格式化方式将日志级别INFO的日志写入到logger
+ */
+#define CAT_LOG_FMT_INFO(logger, fmt, ...) CAT_LOG_FMT_LEVEL(logger, CatLogNew::LogLevel::INFO, fmt, __VA_ARGS__)
+
+/**
+ * @brief 使用格式化方式将日志级别WARN的日志写入到logger
+ */
+#define CAT_LOG_FMT_WARN(logger, fmt, ...) CAT_LOG_FMT_LEVEL(logger, CatLogNew::LogLevel::WARN, fmt, __VA_ARGS__)
+
+/**
+ * @brief 使用格式化方式将日志级别ERROR的日志写入到logger
+ */
+#define CAT_LOG_FMT_ERROR(logger, fmt, ...) CAT_LOG_FMT_LEVEL(logger, CatLogNew::LogLevel::ERROR, fmt, __VA_ARGS__)
+
+
+/**
+ * @brief 使用格式化方式将日志级别FATAL的日志写入到logger
+ */
+#define CAT_LOG_FMT_FATAL(logger, fmt, ...) CAT_LOG_FMT_LEVEL(logger, CatLogNew::LogLevel::FATAL, fmt, __VA_ARGS__)
+
+/**
+ * @brief 获取主日志器
+ */
+#define CAT_LOG_ROOT() CatLogNew::LoggerMgr::GetInstance()->getRoot();
+
+/**
+ * @brief 获取name到日志器
+ */
+
+#define CAT_LOG_NAME(name) CatLogNew::LoggerMgr::GetInstance()->getLogger(name)
+
 namespace CatLogNew{
     class Logger;
     /**
@@ -89,6 +174,15 @@ namespace CatLogNew{
          * @brief 返回日志内容字符串流
          */
         std::stringstream& getSS() {return m_ss;}
+
+        /**
+         * @brief 格式化写入日志内容
+         */
+        void format(const char* fmt,...);
+        /**
+         * @brief 格式化写入日志内容
+         */
+        void format(const char* fmt,va_list al);
     private:
         // 文件名
         const char* m_file = nullptr;

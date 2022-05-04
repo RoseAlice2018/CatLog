@@ -6,27 +6,3 @@
 
 #IncludeRegexTransform: 
 
-../third_party/leveldb/include/leveldb/c.h
-stdarg.h
--
-stddef.h
--
-stdint.h
--
-leveldb/export.h
-../third_party/leveldb/include/leveldb/leveldb/export.h
-
-../third_party/leveldb/include/leveldb/export.h
-
-/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/c_test.c
-leveldb/c.h
-/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/leveldb/c.h
-stddef.h
--
-stdio.h
--
-stdlib.h
--
-string.h
--
-
