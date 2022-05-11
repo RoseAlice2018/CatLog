@@ -129,29 +129,29 @@ CatLog/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatLog.dir/build.make CMakeFiles/CatLog.dir/build
 .PHONY : CatLog/fast
 
-include/Log.o: include/Log.cc.o
-.PHONY : include/Log.o
+include/CatLog.o: include/CatLog.cpp.o
+.PHONY : include/CatLog.o
 
 # target to build an object file
-include/Log.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatLog.dir/build.make CMakeFiles/CatLog.dir/include/Log.cc.o
-.PHONY : include/Log.cc.o
+include/CatLog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatLog.dir/build.make CMakeFiles/CatLog.dir/include/CatLog.cpp.o
+.PHONY : include/CatLog.cpp.o
 
-include/Log.i: include/Log.cc.i
-.PHONY : include/Log.i
+include/CatLog.i: include/CatLog.cpp.i
+.PHONY : include/CatLog.i
 
 # target to preprocess a source file
-include/Log.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatLog.dir/build.make CMakeFiles/CatLog.dir/include/Log.cc.i
-.PHONY : include/Log.cc.i
+include/CatLog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatLog.dir/build.make CMakeFiles/CatLog.dir/include/CatLog.cpp.i
+.PHONY : include/CatLog.cpp.i
 
-include/Log.s: include/Log.cc.s
-.PHONY : include/Log.s
+include/CatLog.s: include/CatLog.cpp.s
+.PHONY : include/CatLog.s
 
 # target to generate assembly for a file
-include/Log.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatLog.dir/build.make CMakeFiles/CatLog.dir/include/Log.cc.s
-.PHONY : include/Log.cc.s
+include/CatLog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatLog.dir/build.make CMakeFiles/CatLog.dir/include/CatLog.cpp.s
+.PHONY : include/CatLog.cpp.s
 
 test/leveldb_test.o: test/leveldb_test.cpp.o
 .PHONY : test/leveldb_test.o
@@ -5922,9 +5922,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CatLog"
-	@echo "... include/Log.o"
-	@echo "... include/Log.i"
-	@echo "... include/Log.s"
+	@echo "... include/CatLog.o"
+	@echo "... include/CatLog.i"
+	@echo "... include/CatLog.s"
 	@echo "... test/leveldb_test.o"
 	@echo "... test/leveldb_test.i"
 	@echo "... test/leveldb_test.s"

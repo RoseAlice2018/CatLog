@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CatLog.dir/include/Log.cc.o"
+  "CMakeFiles/CatLog.dir/include/CatLog.cpp.o"
   "CMakeFiles/CatLog.dir/test/leveldb_test.cpp.o"
   "CMakeFiles/CatLog.dir/third_party/leveldb/benchmarks/db_bench.cc.o"
   "CMakeFiles/CatLog.dir/third_party/leveldb/benchmarks/db_bench_log.cc.o"

@@ -134,7 +134,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/include/Log.cc">
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/include/CatLog.cpp">
 			<Option target="CatLog"/>
 		</Unit>
 		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/src/Log.h">

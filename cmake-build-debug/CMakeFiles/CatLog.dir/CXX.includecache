@@ -6,35 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../src/Log.h
+../src/CatLog.h
 string
 -
 list
 -
-memory
--
-vector
--
-stddef.h
--
-sstream
--
-fstream
--
-map
--
-mutex.h
--
 
-../src/mutex.h
-mutex
--
-
-/Users/reebdeve/CLionProjects/CatLog/include/Log.cc
-Log.h
-/Users/reebdeve/CLionProjects/CatLog/include/Log.h
-vector
--
-tuple
--
+/Users/reebdeve/CLionProjects/CatLog/include/CatLog.cpp
+CatLog.h
+/Users/reebdeve/CLionProjects/CatLog/include/CatLog.h
 

@@ -33,7 +33,7 @@ include_directories(third_party/leveldb/third_party/googletest/googletest/test)
 include_directories(third_party/leveldb/util)
 
 add_executable(CatLog
-        include/Log.cc
+        include/CatLog.cpp
         src/Log.h
         test/leveldb_test.cpp
         third_party/leveldb/benchmarks/db_bench.cc

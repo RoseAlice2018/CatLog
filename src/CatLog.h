@@ -6,7 +6,11 @@
 #define CATLOG_CATLOG_H
 #include <string>
 #include <list>
-
+#include <sstream>
+#include <vector>
+#include <iostream>
+#include <map>
+#include <fstream>
 /**
  * @brief 使用流式方式将日志级别level的日志写入logger
  */
@@ -517,7 +521,7 @@ private:
         // 文件路径
         std::string m_filename;
         // 文件流
-        std::ofstream  m_filestream;
+        std::ofstream m_filestream;
         // 上次重新打开时间
         uint64_t m_lastTime = 0;
     };

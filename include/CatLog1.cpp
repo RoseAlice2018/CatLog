@@ -1,73 +1,101 @@
 //
-// Created by Reeb Deve on 2022/5/2.
+// Created by Reeb Deve on 2022/5/9.
 //
 
-#include "CatLog.h"
-#include <string>
 
-namespace CatLogNew{
-    /**
-     * @brief loglevel类实现
-     */
-    std::string LogLevel::Tostring(LogLevel::Level level) {
-        switch (level) {
-            case LogLevel::DEBUG : return "DEBUG"; break;
-            case LogLevel::INFO  : return "INFO" ; break;
-            case LogLevel::WARN  : return "WARN" ; break;
-            case LogLevel::ERROR : return "ERROR"; break;
-            case LogLevel::FATAL : return "FATAL"; break;
-            default: return "UNKNOWN";
+#include "CatLog1.h"
+#include <map>
+#include <iostream>
+#include <functional>
+#include <time.h>
+#include <string.h>
+#include "config.h"
+#include "util.h"
+#include "macro.h"
+#include "env.h"
+
+namespace CatLog {
+
+    const char* LogLevel::ToString(LogLevel::Level level) {
+        switch(level) {
+#define XX(name) \
+    case LogLevel::name: \
+        return #name; \
+        break;
+
+            XX(DEBUG);
+            XX(INFO);
+            XX(WARN);
+            XX(ERROR);
+            XX(FATAL);
+#undef XX
+            default:
+                return "UNKNOW";
         }
+        return "UNKNOW";
     }
-    LogLevel::Level LogLevel::FromString(const std::string &str)
-    {
-#define XX(level,v) \
-    if(str == #v){\
-    return LogLevel::level;\
-    }
-        XX(DEBUG,debug);
-        XX(INFO,info);
-        XX(WARN,warn);
-        XX(ERROR,error);
-        XX(FATAL,fatal);
 
-        XX(DEBUG,DEBUG);
-        XX(INFO,INFO);
-        XX(WARN,WARN);
-        XX(ERROR,ERROR);
+    LogLevel::Level LogLevel::FromString(const std::string& str) {
+#define XX(level, v) \
+    if(str == #v) { \
+        return LogLevel::level; \
+    }
+        XX(DEBUG, debug);
+        XX(INFO, info);
+        XX(WARN, warn);
+        XX(ERROR, error);
+        XX(FATAL, fatal);
+
+        XX(DEBUG, DEBUG);
+        XX(INFO, INFO);
+        XX(WARN, WARN);
+        XX(ERROR, ERROR);
+        XX(FATAL, FATAL);
         return LogLevel::UNKNOW;
 #undef XX
     }
-    /**
-     * @brief logeventwarp 日志包装类实现
-     */
-    LogEventWrap::LogEventWrap(LogEvent::ptr e):m_event(e){
 
+    LogEventWrap::LogEventWrap(LogEvent::ptr e)
+            :m_event(e) {
     }
 
     LogEventWrap::~LogEventWrap() {
-        m_event->getLogger()->log(m_event->getLevel(),m_event);
+        m_event->getLogger()->log(m_event->getLevel(), m_event);
     }
 
-    //Todo LogEvent::format
-    //Todo LogEvent::format
+    void LogEvent::format(const char* fmt, ...) {
+        va_list al;
+        va_start(al, fmt);
+        format(fmt, al);
+        va_end(al);
+    }
+
+    void LogEvent::format(const char* fmt, va_list al) {
+        char* buf = nullptr;
+        int len = vasprintf(&buf, fmt, al);
+        if(len != -1) {
+            m_ss << std::string(buf, len);
+            free(buf);
+        }
+    }
 
     std::stringstream& LogEventWrap::getSS() {
         return m_event->getSS();
     }
 
-    void LogAppender::setFormatter(LogFormatter::ptr val){
-        //Todo lock
+
+    void LogAppender::setFormatter(LogFormatter::ptr val) {
+        MutexType::Lock lock(m_mutex);
         m_formatter = val;
-        if(m_formatter){
+        if(m_formatter) {
             m_hasFormatter = true;
-        }else{
+        } else {
             m_hasFormatter = false;
         }
     }
 
     LogFormatter::ptr LogAppender::getFormatter() {
-        //Todo lock
+        MutexType::Lock lock(m_mutex);
         return m_formatter;
     }
 
@@ -83,17 +111,17 @@ namespace CatLogNew{
     public:
         LevelFormatItem(const std::string& str = "") {}
         void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event) override {
-            os << LogLevel::Tostring(level);
+            os << LogLevel::ToString(level);
         }
     };
-//    Elapse Item 废弃
-//    class ElapseFormatItem : public LogFormatter::FormatItem {
-//    public:
-//        ElapseFormatItem(const std::string& str = "") {}
-//        void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event) override {
-//            os << event->getElapse();
-//        }
-//    };
+
+    class ElapseFormatItem : public LogFormatter::FormatItem {
+    public:
+        ElapseFormatItem(const std::string& str = "") {}
+        void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event) override {
+            os << event->getElapse();
+        }
+    };
 
     class NameFormatItem : public LogFormatter::FormatItem {
     public:
@@ -118,14 +146,14 @@ namespace CatLogNew{
             os << event->getFiberId();
         }
     };
-    //ThreadName 废弃
-//    class ThreadNameFormatItem : public LogFormatter::FormatItem {
-//    public:
-//        ThreadNameFormatItem(const std::string& str = "") {}
-//        void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event) override {
-//            os << event->getThreadName();
-//        }
-//    };
+
+    class ThreadNameFormatItem : public LogFormatter::FormatItem {
+    public:
+        ThreadNameFormatItem(const std::string& str = "") {}
+        void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event) override {
+            os << event->getThreadName();
+        }
+    };
 
     class DateTimeFormatItem : public LogFormatter::FormatItem {
     public:
@@ -152,7 +180,7 @@ namespace CatLogNew{
     public:
         FilenameFormatItem(const std::string& str = "") {}
         void format(std::ostream& os, Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event) override {
-            os << event->getFileName();
+            os << event->getFile();
         }
     };
 
@@ -171,6 +199,7 @@ namespace CatLogNew{
             os << std::endl;
         }
     };
+
 
     class StringFormatItem : public LogFormatter::FormatItem {
     public:
@@ -193,10 +222,20 @@ namespace CatLogNew{
         std::string m_string;
     };
 
-    //Todo LogEvent 初始化列表
-    LogEvent::LogEvent(std::shared_ptr<Logger> logger, LogLevel::Level level, std::stringstream ss,
-                       std::string service_Name, uint64_t time, uint32_t fiberId, uint32_t threadId) {
 
+    LogEvent::LogEvent(std::shared_ptr<Logger> logger, LogLevel::Level level
+            ,const char* file, int32_t line, uint32_t elapse
+            ,uint32_t thread_id, uint32_t fiber_id, uint64_t time
+            ,const std::string& thread_name)
+            :m_file(file)
+            ,m_line(line)
+            ,m_elapse(elapse)
+            ,m_threadId(thread_id)
+            ,m_fiberId(fiber_id)
+            ,m_time(time)
+            ,m_threadName(thread_name)
+            ,m_logger(logger)
+            ,m_level(level) {
     }
 
     Logger::Logger(const std::string& name)
@@ -206,13 +245,11 @@ namespace CatLogNew{
     }
 
     void Logger::setFormatter(LogFormatter::ptr val) {
-        //Todo 加锁
-        //MutexType::Lock lock(m_mutex);
+        MutexType::Lock lock(m_mutex);
         m_formatter = val;
 
         for(auto& i : m_appenders) {
-            //Todo 加锁
-            //MutexType::Lock ll(i->m_mutex);
+            MutexType::Lock ll(i->m_mutex);
             if(!i->m_hasFormatter) {
                 i->m_formatter = m_formatter;
             }
@@ -221,7 +258,7 @@ namespace CatLogNew{
 
     void Logger::setFormatter(const std::string& val) {
         std::cout << "---" << val << std::endl;
-        CatLogNew::LogFormatter::ptr new_val(new CatLogNew::LogFormatter(val));
+        CatLog::LogFormatter::ptr new_val(new CatLog::LogFormatter(val));
         if(new_val->isError()) {
             std::cout << "Logger setFormatter name=" << m_name
                       << " value=" << val << " invalid formatter"
@@ -233,12 +270,11 @@ namespace CatLogNew{
     }
 
     std::string Logger::toYamlString() {
-        //Todo 加锁
-        //MutexType::Lock lock(m_mutex);
+        MutexType::Lock lock(m_mutex);
         YAML::Node node;
         node["name"] = m_name;
         if(m_level != LogLevel::UNKNOW) {
-            node["level"] = LogLevel::Tostring(m_level);
+            node["level"] = LogLevel::ToString(m_level);
         }
         if(m_formatter) {
             node["formatter"] = m_formatter->getPattern();
@@ -252,25 +288,26 @@ namespace CatLogNew{
         return ss.str();
     }
 
+
     LogFormatter::ptr Logger::getFormatter() {
-        //Todo lock
+        MutexType::Lock lock(m_mutex);
         return m_formatter;
     }
 
     void Logger::addAppender(LogAppender::ptr appender) {
-        //Todo lock
-        if(!appender->getFormatter()){
-            //Todo lock
+        MutexType::Lock lock(m_mutex);
+        if(!appender->getFormatter()) {
+            MutexType::Lock ll(appender->m_mutex);
             appender->m_formatter = m_formatter;
         }
         m_appenders.push_back(appender);
     }
 
     void Logger::delAppender(LogAppender::ptr appender) {
-        //Todo lock
+        MutexType::Lock lock(m_mutex);
         for(auto it = m_appenders.begin();
-               it != m_appenders.end();++it){
-            if(*it == appender){
+            it != m_appenders.end(); ++it) {
+            if(*it == appender) {
                 m_appenders.erase(it);
                 break;
             }
@@ -278,14 +315,14 @@ namespace CatLogNew{
     }
 
     void Logger::clearAppenders() {
-        //Todo lock
+        MutexType::Lock lock(m_mutex);
         m_appenders.clear();
     }
 
     void Logger::log(LogLevel::Level level, LogEvent::ptr event) {
         if(level >= m_level) {
             auto self = shared_from_this();
-            //Todo lock
+            MutexType::Lock lock(m_mutex);
             if(!m_appenders.empty()) {
                 for(auto& i : m_appenders) {
                     i->log(self, level, event);
@@ -328,8 +365,7 @@ namespace CatLogNew{
                 reopen();
                 m_lastTime = now;
             }
-            //Todo 加锁
-            //MutexType::Lock lock(m_mutex);
+            MutexType::Lock lock(m_mutex);
             //if(!(m_filestream << m_formatter->format(logger, level, event))) {
             if(!m_formatter->format(m_filestream, logger, level, event)) {
                 std::cout << "error" << std::endl;
@@ -338,12 +374,12 @@ namespace CatLogNew{
     }
 
     std::string FileLogAppender::toYamlString() {
-        //Todo lock
+        MutexType::Lock lock(m_mutex);
         YAML::Node node;
         node["type"] = "FileLogAppender";
         node["file"] = m_filename;
         if(m_level != LogLevel::UNKNOW) {
-            node["level"] = LogLevel::Tostring(m_level);
+            node["level"] = LogLevel::ToString(m_level);
         }
         if(m_hasFormatter && m_formatter) {
             node["formatter"] = m_formatter->getPattern();
@@ -354,7 +390,7 @@ namespace CatLogNew{
     }
 
     bool FileLogAppender::reopen() {
-        //Todo lock
+        MutexType::Lock lock(m_mutex);
         if(m_filestream) {
             m_filestream.close();
         }
@@ -363,18 +399,17 @@ namespace CatLogNew{
 
     void StdoutLogAppender::log(std::shared_ptr<Logger> logger, LogLevel::Level level, LogEvent::ptr event) {
         if(level >= m_level) {
-            //Todo lock
+            MutexType::Lock lock(m_mutex);
             m_formatter->format(std::cout, logger, level, event);
         }
     }
 
     std::string StdoutLogAppender::toYamlString() {
-        //Todo 加锁
-        //MutexType::Lock lock(m_mutex);
+        MutexType::Lock lock(m_mutex);
         YAML::Node node;
         node["type"] = "StdoutLogAppender";
         if(m_level != LogLevel::UNKNOW) {
-            node["level"] = LogLevel::Tostring(m_level);
+            node["level"] = LogLevel::ToString(m_level);
         }
         if(m_hasFormatter && m_formatter) {
             node["formatter"] = m_formatter->getPattern();
@@ -404,7 +439,7 @@ namespace CatLogNew{
         return ofs;
     }
 
-    //%xxx %xxx{xxx} %%
+//%xxx %xxx{xxx} %%
     void LogFormatter::init() {
         //str, format, type
         std::vector<std::tuple<std::string, std::string, int> > vec;
@@ -483,7 +518,7 @@ namespace CatLogNew{
 
                 XX(m, MessageFormatItem),           //m:消息
                 XX(p, LevelFormatItem),             //p:日志级别
-               // XX(r, ElapseFormatItem),            //r:累计毫秒数
+                XX(r, ElapseFormatItem),            //r:累计毫秒数
                 XX(c, NameFormatItem),              //c:日志名称
                 XX(t, ThreadIdFormatItem),          //t:线程id
                 XX(n, NewLineFormatItem),           //n:换行
@@ -492,7 +527,7 @@ namespace CatLogNew{
                 XX(l, LineFormatItem),              //l:行号
                 XX(T, TabFormatItem),               //T:Tab
                 XX(F, FiberIdFormatItem),           //F:协程id
-               // XX(N, ThreadNameFormatItem),        //N:线程名称
+                XX(N, ThreadNameFormatItem),        //N:线程名称
 #undef XX
         };
 
@@ -513,6 +548,7 @@ namespace CatLogNew{
         }
         //std::cout << m_items.size() << std::endl;
     }
+
 
     LoggerManager::LoggerManager() {
         m_root.reset(new Logger);
@@ -666,24 +702,24 @@ namespace CatLogNew{
         }
     };
 
-    sylar::ConfigVar<std::set<LogDefine> >::ptr g_log_defines =
-            sylar::Config::Lookup("logs", std::set<LogDefine>(), "logs config");
+    CatLog::ConfigVar<std::set<LogDefine> >::ptr g_log_defines =
+            CatLog::Config::Lookup("logs", std::set<LogDefine>(), "logs config");
 
     struct LogIniter {
         LogIniter() {
             g_log_defines->addListener([](const std::set<LogDefine>& old_value,
                                           const std::set<LogDefine>& new_value){
-                SYLAR_LOG_INFO(SYLAR_LOG_ROOT()) << "on_logger_conf_changed";
+                CatLog_LOG_INFO(CatLog_LOG_ROOT()) << "on_logger_conf_changed";
                 for(auto& i : new_value) {
                     auto it = old_value.find(i);
-                    sylar::Logger::ptr logger;
+                    CatLog::Logger::ptr logger;
                     if(it == old_value.end()) {
                         //新增logger
-                        logger = SYLAR_LOG_NAME(i.name);
+                        logger = CatLog_LOG_NAME(i.name);
                     } else {
                         if(!(i == *it)) {
                             //修改的logger
-                            logger = SYLAR_LOG_NAME(i.name);
+                            logger = CatLog_LOG_NAME(i.name);
                         } else {
                             continue;
                         }
@@ -697,11 +733,11 @@ namespace CatLogNew{
 
                     logger->clearAppenders();
                     for(auto& a : i.appenders) {
-                        sylar::LogAppender::ptr ap;
+                        CatLog::LogAppender::ptr ap;
                         if(a.type == 1) {
                             ap.reset(new FileLogAppender(a.file));
                         } else if(a.type == 2) {
-                            if(!sylar::EnvMgr::GetInstance()->has("d")) {
+                            if(!CatLog::EnvMgr::GetInstance()->has("d")) {
                                 ap.reset(new StdoutLogAppender);
                             } else {
                                 continue;
@@ -725,7 +761,7 @@ namespace CatLogNew{
                     auto it = new_value.find(i);
                     if(it == new_value.end()) {
                         //删除logger
-                        auto logger = SYLAR_LOG_NAME(i.name);
+                        auto logger = CatLog_LOG_NAME(i.name);
                         logger->setLevel((LogLevel::Level)0);
                         logger->clearAppenders();
                     }
@@ -749,4 +785,5 @@ namespace CatLogNew{
 
     void LoggerManager::init() {
     }
+
 }

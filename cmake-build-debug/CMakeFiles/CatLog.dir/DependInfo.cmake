@@ -45,7 +45,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../third_party/leveldb/util"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/reebdeve/CLionProjects/CatLog/include/Log.cc" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CatLog.dir/include/Log.cc.o"
+  "/Users/reebdeve/CLionProjects/CatLog/include/CatLog.cpp" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CatLog.dir/include/CatLog.cpp.o"
   "/Users/reebdeve/CLionProjects/CatLog/test/leveldb_test.cpp" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CatLog.dir/test/leveldb_test.cpp.o"
   "/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/benchmarks/db_bench.cc" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CatLog.dir/third_party/leveldb/benchmarks/db_bench.cc.o"
   "/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/benchmarks/db_bench_log.cc" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CatLog.dir/third_party/leveldb/benchmarks/db_bench_log.cc.o"
