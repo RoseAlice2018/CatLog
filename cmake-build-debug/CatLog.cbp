@@ -5,13 +5,53 @@
 		<Option title="CatLog"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\leveldb\;CMake Files\leveldb\port\;CMake Files\leveldb\cmake\;CMake Files\leveldb\third_party\;CMake Files\leveldb\third_party\googletest\;CMake Files\leveldb\third_party\googletest\googlemock\;CMake Files\leveldb\third_party\googletest\googlemock\cmake\;CMake Files\leveldb\third_party\googletest\googletest\;CMake Files\leveldb\third_party\googletest\googletest\cmake\;CMake Files\leveldb\third_party\benchmark\;CMake Files\leveldb\third_party\benchmark\cmake\;CMake Files\leveldb\third_party\benchmark\src\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -44,34 +84,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/include"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/src"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/build"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/build/include"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/build/include/port"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/helpers/memenv"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/port"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/include"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/include/benchmark"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/internal"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/internal/custom"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal/custom"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/src"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -92,34 +105,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/include"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/src"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/build"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/build/include"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/build/include/port"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/helpers/memenv"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/port"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/include"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/include/benchmark"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/internal"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/internal/custom"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal/custom"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/src"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test"/>
-					<Add directory="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -133,1116 +119,1277 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="db_bench_sqlite3">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/db_bench_sqlite3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/../include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 db_bench_sqlite3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="db_bench_sqlite3/fast">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/db_bench_sqlite3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/../include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 db_bench_sqlite3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="db_bench">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/db_bench" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/../include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 db_bench"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="db_bench/fast">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/db_bench" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/../include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 db_bench/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leveldbutil">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/leveldbutil" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 leveldbutil"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leveldbutil/fast">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/leveldbutil" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 leveldbutil/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_test">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/c_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 c_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_test/fast">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/c_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 c_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="env_posix_test">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/env_posix_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 env_posix_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="env_posix_test/fast">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/env_posix_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 env_posix_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leveldb_tests">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/leveldb_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 leveldb_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leveldb_tests/fast">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/leveldb_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 leveldb_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leveldb">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/libleveldb.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_COMPILE_LIBRARY"/>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 leveldb"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leveldb/fast">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/libleveldb.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLEVELDB_COMPILE_LIBRARY"/>
+					<Add option="-DLEVELDB_PLATFORM_POSIX=1"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 leveldb/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_main">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/libbenchmark_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_POSIX_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/../include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 benchmark_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark_main/fast">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/libbenchmark_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_POSIX_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/../include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 benchmark_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/libbenchmark.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_POSIX_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/../include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 benchmark"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchmark/fast">
+				<Option output="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/libbenchmark.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_STD_REGEX"/>
+					<Add option="-DHAVE_POSIX_REGEX"/>
+					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/include"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src"/>
+					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/../include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 benchmark/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/include/CatLog.cpp">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include/port/port_config.h">
+			<Option target="db_bench_sqlite3"/>
+			<Option target="db_bench"/>
+			<Option target="c_test"/>
+			<Option target="env_posix_test"/>
+			<Option target="leveldb_tests"/>
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/src/Log.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/benchmarks/db_bench.cc">
+			<Option target="db_bench"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/test/leveldb_test.cpp">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/benchmarks/db_bench_sqlite3.cc">
+			<Option target="db_bench_sqlite3"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/benchmarks/db_bench.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/autocompact_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/benchmarks/db_bench_log.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/builder.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/benchmarks/db_bench_sqlite3.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/builder.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/benchmarks/db_bench_tree_db.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/c.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/build/include/port/port_config.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/c_test.c">
+			<Option target="c_test"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/autocompact_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/corruption_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/builder.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_impl.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/builder.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_impl.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/c.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_iter.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/c_test.c">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_iter.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/corruption_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/db_impl.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/dbformat.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/db_impl.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/dbformat.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/db_iter.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/dbformat_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/db_iter.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/dumpfile.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/db_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/filename.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/dbformat.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/filename.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/dbformat.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/filename_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/dbformat_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/leveldbutil.cc">
+			<Option target="leveldbutil"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/dumpfile.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_format.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/fault_injection_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_reader.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/filename.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_reader.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/filename.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/filename_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_writer.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/leveldbutil.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_writer.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/log_format.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/memtable.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/log_reader.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/memtable.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/log_reader.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/recovery_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/log_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/repair.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/log_writer.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/skiplist.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/log_writer.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/skiplist_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/memtable.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/snapshot.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/memtable.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/table_cache.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/recovery_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/table_cache.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/repair.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_edit.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/skiplist.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_edit.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/skiplist_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_edit_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/snapshot.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_set.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/table_cache.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_set.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/table_cache.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_set_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/version_edit.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/write_batch.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/version_edit.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/write_batch_internal.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/version_edit_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/db/write_batch_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/version_set.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/helpers/memenv/memenv.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/version_set.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/helpers/memenv/memenv.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/version_set_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/helpers/memenv/memenv_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/write_batch.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/c.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/write_batch_internal.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/cache.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/db/write_batch_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/comparator.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/helpers/memenv/memenv.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/db.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/helpers/memenv/memenv.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/dumpfile.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/helpers/memenv/memenv_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/env.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/c.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/export.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/cache.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/filter_policy.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/comparator.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/iterator.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/db.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/options.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/dumpfile.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/slice.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/env.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/status.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/export.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/table.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/filter_policy.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/table_builder.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/iterator.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/include/leveldb/write_batch.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/options.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/port/port.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/slice.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/port/port_stdcxx.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/status.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/port/thread_annotations.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/table.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/block.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/table_builder.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/block.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/include/leveldb/write_batch.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/block_builder.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/issues/issue178_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/block_builder.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/issues/issue200_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/filter_block.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/issues/issue320_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/filter_block.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/port/port.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/filter_block_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/port/port_example.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/format.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/port/port_stdcxx.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/format.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/port/thread_annotations.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/iterator.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/block.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/iterator_wrapper.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/block.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/merger.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/block_builder.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/merger.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/block_builder.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/table.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/filter_block.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/table_builder.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/filter_block.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/table_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/filter_block_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/two_level_iterator.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/format.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/table/two_level_iterator.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/format.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/include/benchmark/benchmark.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/iterator.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/arraysize.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/iterator_wrapper.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/merger.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_api_internal.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/merger.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_api_internal.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/table.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_main.cc">
+			<Option target="benchmark_main"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/table_builder.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_name.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/table_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_register.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/two_level_iterator.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_register.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/table/two_level_iterator.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_runner.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/bindings/python/google_benchmark/benchmark.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_runner.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/cmake/gnu_posix_regex.cpp">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/check.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/cmake/posix_regex.cpp">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/colorprint.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/cmake/std_regex.cpp">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/colorprint.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/cmake/steady_clock.cpp">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/commandlineflags.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/cmake/thread_safety_attributes.cpp">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/commandlineflags.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/include/benchmark/benchmark.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/complexity.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/arraysize.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/complexity.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/benchmark.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/console_reporter.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/benchmark_api_internal.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/counter.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/benchmark_api_internal.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/counter.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/benchmark_main.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/csv_reporter.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/benchmark_name.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/cycleclock.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/benchmark_register.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/internal_macros.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/benchmark_register.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/json_reporter.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/benchmark_runner.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/log.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/benchmark_runner.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/mutex.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/check.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/perf_counters.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/colorprint.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/perf_counters.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/colorprint.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/re.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/commandlineflags.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/reporter.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/commandlineflags.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sleep.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/complexity.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sleep.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/complexity.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/statistics.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/console_reporter.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/statistics.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/counter.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/string_util.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/counter.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/string_util.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/csv_reporter.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sysinfo.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/cycleclock.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/thread_manager.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/internal_macros.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/thread_timer.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/json_reporter.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/timers.cc">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/log.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/timers.h">
+			<Option target="benchmark"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/mutex.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/perf_counters.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/perf_counters.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/re.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/reporter.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/arena.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/sleep.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/arena.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/sleep.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/arena_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/statistics.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/bloom.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/statistics.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/bloom_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/string_util.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/cache.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/string_util.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/cache_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/sysinfo.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/coding.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/thread_manager.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/coding.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/thread_timer.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/coding_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/timers.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/comparator.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/src/timers.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/crc32c.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/args_product_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/crc32c.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/basic_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/crc32c_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/benchmark_gtest.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/env.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/benchmark_name_gtest.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/benchmark_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix_test.cc">
+			<Option target="env_posix_test"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/clobber_memory_assembly_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/filter_policy.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/commandlineflags_gtest.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/hash.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/complexity_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/hash.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/cxx03_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/hash_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/diagnostics_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/histogram.cc">
+			<Option target="db_bench_sqlite3"/>
+			<Option target="db_bench"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/display_aggregates_only_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/histogram.h">
+			<Option target="db_bench_sqlite3"/>
+			<Option target="db_bench"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/donotoptimize_assembly_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/logging.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/donotoptimize_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/logging.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/filter_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/logging_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/fixture_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/mutexlock.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/internal_threading_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/no_destructor.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/link_main_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/no_destructor_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/map_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/options.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/memory_manager_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/posix_logger.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/multiple_ranges_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/random.h">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/options_test.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/status.cc">
+			<Option target="leveldb"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/output_test.h">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/status_test.cc">
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/output_test_helper.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc">
+			<Option target="db_bench_sqlite3"/>
+			<Option target="db_bench"/>
+			<Option target="c_test"/>
+			<Option target="env_posix_test"/>
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/perf_counters_gtest.cc">
-			<Option target="CatLog"/>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.h">
+			<Option target="db_bench_sqlite3"/>
+			<Option target="db_bench"/>
+			<Option target="c_test"/>
+			<Option target="env_posix_test"/>
+			<Option target="leveldb_tests"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/perf_counters_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/register_benchmark_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/report_aggregates_only_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/reporter_output_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/skip_with_error_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/state_assembly_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/statistics_gtest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/string_util_gtest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/templated_fixture_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/user_counters_tabular_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/user_counters_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/benchmark/test/user_counters_thousands_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/gmock-actions.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/gmock-cardinalities.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/gmock-function-mocker.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/gmock-matchers.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/gmock-more-actions.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/gmock-more-matchers.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/gmock-nice-strict.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/gmock-spec-builders.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/gmock.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/internal/custom/gmock-matchers.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/internal/custom/gmock-port.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/internal/gmock-port.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/include/gmock/internal/gmock-pp.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/src/gmock-all.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/src/gmock-cardinalities.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/src/gmock-internal-utils.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/src/gmock-matchers.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/src/gmock-spec-builders.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/src/gmock.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/src/gmock_main.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock-actions_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock-cardinalities_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock-function-mocker_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock-internal-utils_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock-matchers_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock-more-actions_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock-nice-strict_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock-port_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock-pp-string_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock-pp_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock-spec-builders_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock_all_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock_ex_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock_leak_test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock_link2_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock_link_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock_link_test.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock_output_test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock_stress_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googlemock/test/gmock_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/gtest-death-test.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/gtest-matchers.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/gtest-message.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/gtest-param-test.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/gtest-printers.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/gtest-spi.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/gtest-test-part.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/gtest-typed-test.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/gtest.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/gtest_pred_impl.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/gtest_prod.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal/custom/gtest-port.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal/custom/gtest-printers.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal/custom/gtest.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal/gtest-filepath.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal/gtest-internal.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal/gtest-param-util.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal/gtest-port-arch.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal/gtest-port.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal/gtest-string.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/include/gtest/internal/gtest-type-util.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/prime_tables.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample1.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample1.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample10_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample1_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample2.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample2.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample2_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample3-inl.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample3_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample4.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample4.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample4_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample5_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample6_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample7_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample8_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/samples/sample9_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/src/gtest-all.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/src/gtest-death-test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/src/gtest-filepath.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/src/gtest-internal-inl.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/src/gtest-matchers.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/src/gtest-port.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/src/gtest-printers.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/src/gtest-test-part.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/src/gtest-typed-test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/src/gtest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/src/gtest_main.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-break-on-failure-unittest_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-catch-exceptions-test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-color-test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-death-test-test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-death-test_ex_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-env-var-test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-failfast-unittest_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-filepath-test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-filter-unittest_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-global-environment-unittest_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-list-tests-unittest_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-listener-test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-message-test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-options-test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-output-test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-param-test-invalid-name1-test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-param-test-invalid-name2-test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-param-test-test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-param-test-test.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-param-test2-test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-port-test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-printers-test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-setuptestsuite-test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-shuffle-test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-test-part-test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-throw-on-failure-test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/googletest-uninitialized-test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest-typed-test2_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest-typed-test_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest-typed-test_test.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest-unittest-api_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_all_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_assert_by_exception_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_environment_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_help_test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_list_output_unittest_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_main_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_no_test_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_pred_impl_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_premature_exit_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_prod_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_repeat_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_skip_in_environment_setup_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_skip_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_sole_header_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_stress_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_test_macro_stack_footprint_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_testbridge_test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_throw_on_failure_ex_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_unittest.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_xml_outfile1_test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_xml_outfile2_test_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/gtest_xml_output_unittest_.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/production.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/third_party/googletest/googletest/test/production.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/arena.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/arena.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/arena_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/bloom.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/bloom_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/cache.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/cache_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/coding.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/coding.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/coding_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/comparator.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/crc32c.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/crc32c.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/crc32c_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/env.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/env_posix.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/env_posix_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/env_posix_test_helper.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/env_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/env_windows.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/env_windows_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/env_windows_test_helper.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/filter_policy.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/hash.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/hash.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/hash_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/histogram.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/histogram.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/logging.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/logging.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/logging_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/mutexlock.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/no_destructor.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/no_destructor_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/options.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/posix_logger.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/random.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/status.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/status_test.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/testutil.cc">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/testutil.h">
-			<Option target="CatLog"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/third_party/leveldb/util/windows_logger.h">
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/main.cpp">
 			<Option target="CatLog"/>
 		</Unit>
 		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leveldb\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/port/port_config.h.in">
+			<Option virtualFolder="CMake Files\leveldb\port\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/cmake/leveldbConfig.cmake.in">
+			<Option virtualFolder="CMake Files\leveldb\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leveldb\third_party\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leveldb\third_party\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\leveldb\third_party\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\leveldb\third_party\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leveldb\third_party\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\leveldb\third_party\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\leveldb\third_party\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\leveldb\third_party\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\leveldb\third_party\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake">
+			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/CXXFeatureCheck.cmake">
+			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/GetGitVersion.cmake">
+			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/benchmark.pc.in">
+			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\src\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

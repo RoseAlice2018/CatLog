@@ -264,3 +264,347 @@ Parsed CXX implicit link information from above output:
   implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks]
 
 
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b067f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b067f.dir/build.make CMakeFiles/cmTC_b067f.dir/build
+Building C object CMakeFiles/cmTC_b067f.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=c11 -MD -MT CMakeFiles/cmTC_b067f.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_b067f.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_b067f.dir/CheckIncludeFile.c.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b067f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b067f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b067f.dir/CheckIncludeFile.c.o -o cmTC_b067f 
+
+
+
+Determining if the F_FULLFSYNC exist passed with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_48e05/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_48e05.dir/build.make CMakeFiles/cmTC_48e05.dir/build
+Building CXX object CMakeFiles/cmTC_48e05.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -MD -MT CMakeFiles/cmTC_48e05.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_48e05.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_48e05.dir/CheckSymbolExists.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_48e05
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48e05.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_48e05.dir/CheckSymbolExists.cxx.o -o cmTC_48e05 
+
+
+File /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_FULLFSYNC
+  return ((int*)(&F_FULLFSYNC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the O_CLOEXEC exist passed with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e8fe4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e8fe4.dir/build.make CMakeFiles/cmTC_e8fe4.dir/build
+Building CXX object CMakeFiles/cmTC_e8fe4.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -MD -MT CMakeFiles/cmTC_e8fe4.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_e8fe4.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_e8fe4.dir/CheckSymbolExists.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_e8fe4
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8fe4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e8fe4.dir/CheckSymbolExists.cxx.o -o cmTC_e8fe4 
+
+
+File /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_CLOEXEC
+  return ((int*)(&O_CLOEXEC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_CLANG_THREAD_SAFETY succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7dc73/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7dc73.dir/build.make CMakeFiles/cmTC_7dc73.dir/build
+Building CXX object CMakeFiles/cmTC_7dc73.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CLANG_THREAD_SAFETY  -fno-exceptions -fno-rtti  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Wthread-safety -std=gnu++14 -MD -MT CMakeFiles/cmTC_7dc73.dir/src.cxx.o -MF CMakeFiles/cmTC_7dc73.dir/src.cxx.o.d -o CMakeFiles/cmTC_7dc73.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7dc73
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dc73.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7dc73.dir/src.cxx.o -o cmTC_7dc73 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_37b3a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_37b3a.dir/build.make CMakeFiles/cmTC_37b3a.dir/build
+Building CXX object CMakeFiles/cmTC_37b3a.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DLEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS  -fno-exceptions -fno-rtti  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Wno-missing-field-initializers -std=gnu++14 -MD -MT CMakeFiles/cmTC_37b3a.dir/src.cxx.o -MF CMakeFiles/cmTC_37b3a.dir/src.cxx.o.d -o CMakeFiles/cmTC_37b3a.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_37b3a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37b3a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_37b3a.dir/src.cxx.o -o cmTC_37b3a 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX17_HAS_INCLUDE succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_adbff/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_adbff.dir/build.make CMakeFiles/cmTC_adbff.dir/build
+Building CXX object CMakeFiles/cmTC_adbff.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX17_HAS_INCLUDE  -fno-exceptions -fno-rtti  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14 -MD -MT CMakeFiles/cmTC_adbff.dir/src.cxx.o -MF CMakeFiles/cmTC_adbff.dir/src.cxx.o.d -o CMakeFiles/cmTC_adbff.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_adbff
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adbff.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_adbff.dir/src.cxx.o -o cmTC_adbff 
+
+
+Source file was:
+
+#if defined(__has_include) &&  __has_include(<string>)
+#include <string>
+#endif
+int main() { std::string str; return 0; }
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0af91/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0af91.dir/build.make CMakeFiles/cmTC_0af91.dir/build
+Building C object CMakeFiles/cmTC_0af91.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wstrict-prototypes  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=c11 -MD -MT CMakeFiles/cmTC_0af91.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_0af91.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_0af91.dir/CheckIncludeFile.c.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0af91
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0af91.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wstrict-prototypes  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0af91.dir/CheckIncludeFile.c.o -o cmTC_0af91 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f907b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f907b.dir/build.make CMakeFiles/cmTC_f907b.dir/build
+Building C object CMakeFiles/cmTC_f907b.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -Wstrict-prototypes  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=c11 -MD -MT CMakeFiles/cmTC_f907b.dir/src.c.o -MF CMakeFiles/cmTC_f907b.dir/src.c.o.d -o CMakeFiles/cmTC_f907b.dir/src.c.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f907b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f907b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wstrict-prototypes  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f907b.dir/src.c.o -o cmTC_f907b 
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2c524/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2c524.dir/build.make CMakeFiles/cmTC_2c524.dir/build
+Building CXX object CMakeFiles/cmTC_2c524.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_STD_CXX11  -fno-exceptions -fno-rtti  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -std=c++11 -std=gnu++14 -MD -MT CMakeFiles/cmTC_2c524.dir/src.cxx.o -MF CMakeFiles/cmTC_2c524.dir/src.cxx.o.d -o CMakeFiles/cmTC_2c524.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2c524
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c524.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2c524.dir/src.cxx.o -o cmTC_2c524 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_db88c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_db88c.dir/build.make CMakeFiles/cmTC_db88c.dir/build
+Building CXX object CMakeFiles/cmTC_db88c.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -fno-exceptions -fno-rtti  -std=c++11  -Wall -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Wall -std=gnu++14 -MD -MT CMakeFiles/cmTC_db88c.dir/src.cxx.o -MF CMakeFiles/cmTC_db88c.dir/src.cxx.o.d -o CMakeFiles/cmTC_db88c.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_db88c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db88c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11  -Wall -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_db88c.dir/src.cxx.o -o cmTC_db88c 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d1530/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d1530.dir/build.make CMakeFiles/cmTC_d1530.dir/build
+Building CXX object CMakeFiles/cmTC_d1530.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Wextra -std=gnu++14 -MD -MT CMakeFiles/cmTC_d1530.dir/src.cxx.o -MF CMakeFiles/cmTC_d1530.dir/src.cxx.o.d -o CMakeFiles/cmTC_d1530.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d1530
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1530.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d1530.dir/src.cxx.o -o cmTC_d1530 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a6b33/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a6b33.dir/build.make CMakeFiles/cmTC_a6b33.dir/build
+Building CXX object CMakeFiles/cmTC_a6b33.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Wshadow -std=gnu++14 -MD -MT CMakeFiles/cmTC_a6b33.dir/src.cxx.o -MF CMakeFiles/cmTC_a6b33.dir/src.cxx.o.d -o CMakeFiles/cmTC_a6b33.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a6b33
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6b33.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a6b33.dir/src.cxx.o -o cmTC_a6b33 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cc9d1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cc9d1.dir/build.make CMakeFiles/cmTC_cc9d1.dir/build
+Building CXX object CMakeFiles/cmTC_cc9d1.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Werror -std=gnu++14 -MD -MT CMakeFiles/cmTC_cc9d1.dir/src.cxx.o -MF CMakeFiles/cmTC_cc9d1.dir/src.cxx.o.d -o CMakeFiles/cmTC_cc9d1.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cc9d1
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc9d1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cc9d1.dir/src.cxx.o -o cmTC_cc9d1 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_11593/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_11593.dir/build.make CMakeFiles/cmTC_11593.dir/build
+Building CXX object CMakeFiles/cmTC_11593.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Wsuggest-override -std=gnu++14 -MD -MT CMakeFiles/cmTC_11593.dir/src.cxx.o -MF CMakeFiles/cmTC_11593.dir/src.cxx.o.d -o CMakeFiles/cmTC_11593.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_11593
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11593.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_11593.dir/src.cxx.o -o cmTC_11593 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3c998/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3c998.dir/build.make CMakeFiles/cmTC_3c998.dir/build
+Building CXX object CMakeFiles/cmTC_3c998.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Wshorten-64-to-32 -std=gnu++14 -MD -MT CMakeFiles/cmTC_3c998.dir/src.cxx.o -MF CMakeFiles/cmTC_3c998.dir/src.cxx.o.d -o CMakeFiles/cmTC_3c998.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3c998
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c998.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3c998.dir/src.cxx.o -o cmTC_3c998 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6be44/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6be44.dir/build.make CMakeFiles/cmTC_6be44.dir/build
+Building CXX object CMakeFiles/cmTC_6be44.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -fstrict-aliasing -std=gnu++14 -MD -MT CMakeFiles/cmTC_6be44.dir/src.cxx.o -MF CMakeFiles/cmTC_6be44.dir/src.cxx.o.d -o CMakeFiles/cmTC_6be44.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6be44
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6be44.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6be44.dir/src.cxx.o -o cmTC_6be44 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_aa2bb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aa2bb.dir/build.make CMakeFiles/cmTC_aa2bb.dir/build
+Building CXX object CMakeFiles/cmTC_aa2bb.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Wno-deprecated-declarations -std=gnu++14 -MD -MT CMakeFiles/cmTC_aa2bb.dir/src.cxx.o -MF CMakeFiles/cmTC_aa2bb.dir/src.cxx.o.d -o CMakeFiles/cmTC_aa2bb.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aa2bb
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa2bb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_aa2bb.dir/src.cxx.o -o cmTC_aa2bb 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9fb5a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9fb5a.dir/build.make CMakeFiles/cmTC_9fb5a.dir/build
+Building CXX object CMakeFiles/cmTC_9fb5a.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Wno-deprecated -std=gnu++14 -MD -MT CMakeFiles/cmTC_9fb5a.dir/src.cxx.o -MF CMakeFiles/cmTC_9fb5a.dir/src.cxx.o.d -o CMakeFiles/cmTC_9fb5a.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9fb5a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fb5a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9fb5a.dir/src.cxx.o -o cmTC_9fb5a 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_17fac/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_17fac.dir/build.make CMakeFiles/cmTC_17fac.dir/build
+Building CXX object CMakeFiles/cmTC_17fac.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -fno-exceptions -std=gnu++14 -MD -MT CMakeFiles/cmTC_17fac.dir/src.cxx.o -MF CMakeFiles/cmTC_17fac.dir/src.cxx.o.d -o CMakeFiles/cmTC_17fac.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_17fac
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17fac.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_17fac.dir/src.cxx.o -o cmTC_17fac 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_60299/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_60299.dir/build.make CMakeFiles/cmTC_60299.dir/build
+Building CXX object CMakeFiles/cmTC_60299.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Wstrict-aliasing -std=gnu++14 -MD -MT CMakeFiles/cmTC_60299.dir/src.cxx.o -MF CMakeFiles/cmTC_60299.dir/src.cxx.o.d -o CMakeFiles/cmTC_60299.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_60299
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60299.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_60299.dir/src.cxx.o -o cmTC_60299 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5d700/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5d700.dir/build.make CMakeFiles/cmTC_5d700.dir/build
+Building CXX object CMakeFiles/cmTC_5d700.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Wthread-safety -std=gnu++14 -MD -MT CMakeFiles/cmTC_5d700.dir/src.cxx.o -MF CMakeFiles/cmTC_5d700.dir/src.cxx.o.d -o CMakeFiles/cmTC_5d700.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5d700
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d700.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5d700.dir/src.cxx.o -o cmTC_5d700 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_52ff4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_52ff4.dir/build.make CMakeFiles/cmTC_52ff4.dir/build
+Building CXX object CMakeFiles/cmTC_52ff4.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  --coverage -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   --coverage -std=gnu++14 -MD -MT CMakeFiles/cmTC_52ff4.dir/src.cxx.o -MF CMakeFiles/cmTC_52ff4.dir/src.cxx.o.d -o CMakeFiles/cmTC_52ff4.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_52ff4
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52ff4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety  --coverage -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_52ff4.dir/src.cxx.o -o cmTC_52ff4 
+
+
+Source file was:
+int main() { return 0; }
+Determining if the function sqlite3_open exists in the sqlite3 passed with the following output:
+Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fdaa6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fdaa6.dir/build.make CMakeFiles/cmTC_fdaa6.dir/build
+Building C object CMakeFiles/cmTC_fdaa6.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=c11 -MD -MT CMakeFiles/cmTC_fdaa6.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_fdaa6.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_fdaa6.dir/CheckFunctionExists.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fdaa6
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdaa6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fdaa6.dir/CheckFunctionExists.c.o -o cmTC_fdaa6  -lsqlite3 
+
+
+

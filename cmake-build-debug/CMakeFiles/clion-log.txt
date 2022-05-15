@@ -1,4 +1,11 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/reebdeve/CLionProjects/CatLog
+-- git Version: v0.0.0-dirty
+-- Version: 0.0.0
+-- Performing Test HAVE_THREAD_SAFETY_ATTRIBUTES -- failed to compile
+-- Performing Test HAVE_STD_REGEX -- success
+-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+-- Performing Test HAVE_POSIX_REGEX -- success
+-- Performing Test HAVE_STEADY_CLOCK -- success
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug
