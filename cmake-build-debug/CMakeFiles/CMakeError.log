@@ -1,70 +1,96 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
 Determining if the function crc32c_value exists in the crc32c failed with the following output:
 Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_fa30b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fa30b.dir/build.make CMakeFiles/cmTC_fa30b.dir/build
-Building C object CMakeFiles/cmTC_fa30b.dir/CheckFunctionExists.c.o
-/opt/homebrew/Cellar/gcc/11.2.0/bin/gcc-11   -DCHECK_FUNCTION_EXISTS=crc32c_value -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=c11 -o CMakeFiles/cmTC_fa30b.dir/CheckFunctionExists.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckFunctionExists.c
-Linking C executable cmTC_fa30b
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa30b.dir/link.txt --verbose=1
-/opt/homebrew/Cellar/gcc/11.2.0/bin/gcc-11  -DCHECK_FUNCTION_EXISTS=crc32c_value -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fa30b.dir/CheckFunctionExists.c.o -o cmTC_fa30b  -lcrc32c 
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8c631/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8c631.dir/build.make CMakeFiles/cmTC_8c631.dir/build
+Building C object CMakeFiles/cmTC_8c631.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crc32c_value -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=c11 -MD -MT CMakeFiles/cmTC_8c631.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_8c631.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_8c631.dir/CheckFunctionExists.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8c631
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c631.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=crc32c_value -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8c631.dir/CheckFunctionExists.c.o -o cmTC_8c631  -lcrc32c 
 ld: library not found for -lcrc32c
-collect2: error: ld returned 1 exit status
-make[1]: *** [cmTC_fa30b] Error 1
-make: *** [cmTC_fa30b/fast] Error 2
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_8c631] Error 1
+make: *** [cmTC_8c631/fast] Error 2
 
 
 
 Determining if the function snappy_compress exists in the snappy failed with the following output:
 Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_b784c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b784c.dir/build.make CMakeFiles/cmTC_b784c.dir/build
-Building C object CMakeFiles/cmTC_b784c.dir/CheckFunctionExists.c.o
-/opt/homebrew/Cellar/gcc/11.2.0/bin/gcc-11   -DCHECK_FUNCTION_EXISTS=snappy_compress -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=c11 -o CMakeFiles/cmTC_b784c.dir/CheckFunctionExists.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b784c
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b784c.dir/link.txt --verbose=1
-/opt/homebrew/Cellar/gcc/11.2.0/bin/gcc-11  -DCHECK_FUNCTION_EXISTS=snappy_compress -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b784c.dir/CheckFunctionExists.c.o -o cmTC_b784c  -lsnappy 
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a1c4e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a1c4e.dir/build.make CMakeFiles/cmTC_a1c4e.dir/build
+Building C object CMakeFiles/cmTC_a1c4e.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snappy_compress -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=c11 -MD -MT CMakeFiles/cmTC_a1c4e.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_a1c4e.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_a1c4e.dir/CheckFunctionExists.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a1c4e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1c4e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snappy_compress -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a1c4e.dir/CheckFunctionExists.c.o -o cmTC_a1c4e  -lsnappy 
 ld: library not found for -lsnappy
-collect2: error: ld returned 1 exit status
-make[1]: *** [cmTC_b784c] Error 1
-make: *** [cmTC_b784c/fast] Error 2
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_a1c4e] Error 1
+make: *** [cmTC_a1c4e/fast] Error 2
 
 
 
 Determining if the function malloc exists in the tcmalloc failed with the following output:
 Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_66870/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_66870.dir/build.make CMakeFiles/cmTC_66870.dir/build
-Building C object CMakeFiles/cmTC_66870.dir/CheckFunctionExists.c.o
-/opt/homebrew/Cellar/gcc/11.2.0/bin/gcc-11   -DCHECK_FUNCTION_EXISTS=malloc -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=c11 -o CMakeFiles/cmTC_66870.dir/CheckFunctionExists.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckFunctionExists.c
-<command-line>: warning: conflicting types for built-in function 'malloc'; expected 'void *(long unsigned int)' [-Wbuiltin-declaration-mismatch]
-/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
-    7 |   CHECK_FUNCTION_EXISTS(void);
-      |   ^~~~~~~~~~~~~~~~~~~~~
-/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckFunctionExists.c:1:1: note: 'malloc' is declared in header '<stdlib.h>'
-  +++ |+#include <stdlib.h>
-    1 | #ifdef CHECK_FUNCTION_EXISTS
-Linking C executable cmTC_66870
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66870.dir/link.txt --verbose=1
-/opt/homebrew/Cellar/gcc/11.2.0/bin/gcc-11  -DCHECK_FUNCTION_EXISTS=malloc -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_66870.dir/CheckFunctionExists.c.o -o cmTC_66870  -ltcmalloc 
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3c208/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3c208.dir/build.make CMakeFiles/cmTC_3c208.dir/build
+Building C object CMakeFiles/cmTC_3c208.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=c11 -MD -MT CMakeFiles/cmTC_3c208.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_3c208.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_3c208.dir/CheckFunctionExists.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckFunctionExists.c
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CheckFunctionExists.c:7:3: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_3c208
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c208.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3c208.dir/CheckFunctionExists.c.o -o cmTC_3c208  -ltcmalloc 
 ld: library not found for -ltcmalloc
-collect2: error: ld returned 1 exit status
-make[1]: *** [cmTC_66870] Error 1
-make: *** [cmTC_66870/fast] Error 2
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3c208] Error 1
+make: *** [cmTC_3c208/fast] Error 2
 
 
 
 Determining if the fdatasync exist failed with the following output:
 Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_52ad6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_52ad6.dir/build.make CMakeFiles/cmTC_52ad6.dir/build
-Building CXX object CMakeFiles/cmTC_52ad6.dir/CheckSymbolExists.cxx.o
-/opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/cmTC_52ad6.dir/CheckSymbolExists.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
-/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'fdatasync' was not declared in this scope
-    8 |   return ((int*)(&fdatasync))[argc];
-      |                   ^~~~~~~~~
-make[1]: *** [CMakeFiles/cmTC_52ad6.dir/CheckSymbolExists.cxx.o] Error 1
-make: *** [cmTC_52ad6/fast] Error 2
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_93c53/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_93c53.dir/build.make CMakeFiles/cmTC_93c53.dir/build
+Building CXX object CMakeFiles/cmTC_93c53.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -MD -MT CMakeFiles/cmTC_93c53.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_93c53.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_93c53.dir/CheckSymbolExists.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'fdatasync'
+  return ((int*)(&fdatasync))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_93c53.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_93c53/fast] Error 2
 
 
 File /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
@@ -81,57 +107,16 @@ int main(int argc, char** argv)
   return 0;
 #endif
 }
-Performing C++ SOURCE FILE Test HAVE_CLANG_THREAD_SAFETY failed with the following output:
-Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_39010/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_39010.dir/build.make CMakeFiles/cmTC_39010.dir/build
-Building CXX object CMakeFiles/cmTC_39010.dir/src.cxx.o
-/opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 -DHAVE_CLANG_THREAD_SAFETY  -fno-exceptions -fno-rtti  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wthread-safety -std=gnu++14 -o CMakeFiles/cmTC_39010.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-g++-11: error: unrecognized command-line option '-Wthread-safety'
-make[1]: *** [CMakeFiles/cmTC_39010.dir/src.cxx.o] Error 1
-make: *** [cmTC_39010/fast] Error 2
-
-
-Source file was:
-int main() { return 0; }
-Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
-Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_020b7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_020b7.dir/build.make CMakeFiles/cmTC_020b7.dir/build
-Building CXX object CMakeFiles/cmTC_020b7.dir/src.cxx.o
-/opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wshorten-64-to-32 -std=gnu++14 -o CMakeFiles/cmTC_020b7.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-g++-11: error: unrecognized command-line option '-Wshorten-64-to-32'
-g++-11: error: unrecognized command-line option '-Wshorten-64-to-32'
-make[1]: *** [CMakeFiles/cmTC_020b7.dir/src.cxx.o] Error 1
-make: *** [cmTC_020b7/fast] Error 2
-
-
-Source file was:
-int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
 Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_c82b0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c82b0.dir/build.make CMakeFiles/cmTC_c82b0.dir/build
-Building CXX object CMakeFiles/cmTC_c82b0.dir/src.cxx.o
-/opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 -DHAVE_CXX_FLAG_WD654  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  -wd654 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -wd654 -std=gnu++14 -o CMakeFiles/cmTC_c82b0.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-g++-11: error: unrecognized command-line option '-wd654'
-g++-11: error: unrecognized command-line option '-wd654'
-make[1]: *** [CMakeFiles/cmTC_c82b0.dir/src.cxx.o] Error 1
-make: *** [cmTC_c82b0/fast] Error 2
-
-
-Source file was:
-int main() { return 0; }
-Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
-Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_98b42/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_98b42.dir/build.make CMakeFiles/cmTC_98b42.dir/build
-Building CXX object CMakeFiles/cmTC_98b42.dir/src.cxx.o
-/opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -Wthread-safety -std=gnu++14 -o CMakeFiles/cmTC_98b42.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-g++-11: error: unrecognized command-line option '-Wthread-safety'
-g++-11: error: unrecognized command-line option '-Wthread-safety'
-make[1]: *** [CMakeFiles/cmTC_98b42.dir/src.cxx.o] Error 1
-make: *** [cmTC_98b42/fast] Error 2
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4f4a1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4f4a1.dir/build.make CMakeFiles/cmTC_4f4a1.dir/build
+Building CXX object CMakeFiles/cmTC_4f4a1.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -fno-exceptions -fno-rtti  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -Wshorten-64-to-32  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  -wd654 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk   -wd654 -std=gnu++14 -MD -MT CMakeFiles/cmTC_4f4a1.dir/src.cxx.o -MF CMakeFiles/cmTC_4f4a1.dir/src.cxx.o.d -o CMakeFiles/cmTC_4f4a1.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-wd654'
+clang: error: unknown argument: '-wd654'
+make[1]: *** [CMakeFiles/cmTC_4f4a1.dir/src.cxx.o] Error 1
+make: *** [cmTC_4f4a1/fast] Error 2
 
 
 Source file was:
@@ -139,15 +124,15 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_KYOTOCABINET failed with the following output:
 Change Dir: /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_c0bb5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c0bb5.dir/build.make CMakeFiles/cmTC_c0bb5.dir/build
-Building CXX object CMakeFiles/cmTC_c0bb5.dir/src.cxx.o
-/opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 -DHAVE_KYOTOCABINET  -fno-exceptions -fno-rtti  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -o CMakeFiles/cmTC_c0bb5.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: kcpolydb.h: No such file or directory
-    2 | #include <kcpolydb.h>
-      |          ^~~~~~~~~~~~
-compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_c0bb5.dir/src.cxx.o] Error 1
-make: *** [cmTC_c0bb5/fast] Error 2
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b440d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b440d.dir/build.make CMakeFiles/cmTC_b440d.dir/build
+Building CXX object CMakeFiles/cmTC_b440d.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_KYOTOCABINET  -fno-exceptions -fno-rtti  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14 -MD -MT CMakeFiles/cmTC_b440d.dir/src.cxx.o -MF CMakeFiles/cmTC_b440d.dir/src.cxx.o.d -o CMakeFiles/cmTC_b440d.dir/src.cxx.o -c /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'kcpolydb.h' file not found
+#include <kcpolydb.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b440d.dir/src.cxx.o] Error 1
+make: *** [cmTC_b440d/fast] Error 2
 
 
 Source file was:

@@ -47,7 +47,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/reebdeve/CLionProjects/CatLog/leveldb/util/options.cc" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/CMakeFiles/leveldb.dir/util/options.cc.o"
   "/Users/reebdeve/CLionProjects/CatLog/leveldb/util/status.cc" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/CMakeFiles/leveldb.dir/util/status.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

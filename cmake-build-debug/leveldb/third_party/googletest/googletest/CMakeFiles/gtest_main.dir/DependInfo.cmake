@@ -10,7 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/src/gtest_main.cc" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

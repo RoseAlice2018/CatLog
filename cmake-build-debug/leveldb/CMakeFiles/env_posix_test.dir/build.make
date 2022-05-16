@@ -69,28 +69,28 @@ include leveldb/CMakeFiles/env_posix_test.dir/flags.make
 leveldb/CMakeFiles/env_posix_test.dir/util/testutil.cc.o: leveldb/CMakeFiles/env_posix_test.dir/flags.make
 leveldb/CMakeFiles/env_posix_test.dir/util/testutil.cc.o: ../leveldb/util/testutil.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leveldb/CMakeFiles/env_posix_test.dir/util/testutil.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/env_posix_test.dir/util/testutil.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/env_posix_test.dir/util/testutil.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc
 
 leveldb/CMakeFiles/env_posix_test.dir/util/testutil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/env_posix_test.dir/util/testutil.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc > CMakeFiles/env_posix_test.dir/util/testutil.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc > CMakeFiles/env_posix_test.dir/util/testutil.cc.i
 
 leveldb/CMakeFiles/env_posix_test.dir/util/testutil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/env_posix_test.dir/util/testutil.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc -o CMakeFiles/env_posix_test.dir/util/testutil.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc -o CMakeFiles/env_posix_test.dir/util/testutil.cc.s
 
 leveldb/CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o: leveldb/CMakeFiles/env_posix_test.dir/flags.make
 leveldb/CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o: ../leveldb/util/env_posix_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object leveldb/CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix_test.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix_test.cc
 
 leveldb/CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix_test.cc > CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix_test.cc > CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.i
 
 leveldb/CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix_test.cc -o CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix_test.cc -o CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.s
 
 # Object files for target env_posix_test
 env_posix_test_OBJECTS = \

@@ -69,28 +69,28 @@ include leveldb/CMakeFiles/c_test.dir/flags.make
 leveldb/CMakeFiles/c_test.dir/util/testutil.cc.o: leveldb/CMakeFiles/c_test.dir/flags.make
 leveldb/CMakeFiles/c_test.dir/util/testutil.cc.o: ../leveldb/util/testutil.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leveldb/CMakeFiles/c_test.dir/util/testutil.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/util/testutil.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/util/testutil.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc
 
 leveldb/CMakeFiles/c_test.dir/util/testutil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_test.dir/util/testutil.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc > CMakeFiles/c_test.dir/util/testutil.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc > CMakeFiles/c_test.dir/util/testutil.cc.i
 
 leveldb/CMakeFiles/c_test.dir/util/testutil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_test.dir/util/testutil.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc -o CMakeFiles/c_test.dir/util/testutil.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc -o CMakeFiles/c_test.dir/util/testutil.cc.s
 
 leveldb/CMakeFiles/c_test.dir/db/c_test.c.o: leveldb/CMakeFiles/c_test.dir/flags.make
 leveldb/CMakeFiles/c_test.dir/db/c_test.c.o: ../leveldb/db/c_test.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object leveldb/CMakeFiles/c_test.dir/db/c_test.c.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_test.dir/db/c_test.c.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/c_test.c
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_test.dir/db/c_test.c.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/c_test.c
 
 leveldb/CMakeFiles/c_test.dir/db/c_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_test.dir/db/c_test.c.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/c_test.c > CMakeFiles/c_test.dir/db/c_test.c.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/c_test.c > CMakeFiles/c_test.dir/db/c_test.c.i
 
 leveldb/CMakeFiles/c_test.dir/db/c_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_test.dir/db/c_test.c.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/gcc-11 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/c_test.c -o CMakeFiles/c_test.dir/db/c_test.c.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/c_test.c -o CMakeFiles/c_test.dir/db/c_test.c.s
 
 # Object files for target c_test
 c_test_OBJECTS = \

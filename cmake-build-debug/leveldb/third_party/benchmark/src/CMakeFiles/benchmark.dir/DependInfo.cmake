@@ -28,7 +28,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sysinfo.cc" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/sysinfo.cc.o"
   "/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/timers.cc" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/timers.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

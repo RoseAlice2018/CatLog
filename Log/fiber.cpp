@@ -189,60 +189,60 @@ namespace CatLog {
         return s_fiber_count;
     }
 
-    void Fiber::MainFunc() {
-        Fiber::ptr cur = GetThis();
+//    void Fiber::MainFunc() {
+//        Fiber::ptr cur = GetThis();
+////        CatLog_ASSERT(cur);
+//        try {
+//            cur->m_cb();
+//            cur->m_cb = nullptr;
+//            cur->m_state = TERM;
+//        } catch (std::exception& ex) {
+//            cur->m_state = EXCEPT;
+//            CatLog_LOG_ERROR(g_logger) << "Fiber Except: " << ex.what()
+//                                      << " fiber_id=" << cur->getId()
+//                                      << std::endl
+//                                      << CatLog::BacktraceToString();
+//        } catch (...) {
+//            cur->m_state = EXCEPT;
+//            CatLog_LOG_ERROR(g_logger) << "Fiber Except"
+//                                      << " fiber_id=" << cur->getId()
+//                                      << std::endl
+//                                      << CatLog::BacktraceToString();
+//        }
+//
+//        auto raw_ptr = cur.get();
+//        cur.reset();
+//        raw_ptr->swapOut();
+//
+// //       CatLog_ASSERT2(false, "never reach fiber_id=" + std::to_string(raw_ptr->getId()));
+//    }
+
+//    void Fiber::CallerMainFunc() {
+//        Fiber::ptr cur = GetThis();
 //        CatLog_ASSERT(cur);
-        try {
-            cur->m_cb();
-            cur->m_cb = nullptr;
-            cur->m_state = TERM;
-        } catch (std::exception& ex) {
-            cur->m_state = EXCEPT;
-            CatLog_LOG_ERROR(g_logger) << "Fiber Except: " << ex.what()
-                                      << " fiber_id=" << cur->getId()
-                                      << std::endl
-                                      << CatLog::BacktraceToString();
-        } catch (...) {
-            cur->m_state = EXCEPT;
-            CatLog_LOG_ERROR(g_logger) << "Fiber Except"
-                                      << " fiber_id=" << cur->getId()
-                                      << std::endl
-                                      << CatLog::BacktraceToString();
-        }
-
-        auto raw_ptr = cur.get();
-        cur.reset();
-        raw_ptr->swapOut();
-
- //       CatLog_ASSERT2(false, "never reach fiber_id=" + std::to_string(raw_ptr->getId()));
-    }
-
-    void Fiber::CallerMainFunc() {
-        Fiber::ptr cur = GetThis();
- //       CatLog_ASSERT(cur);
-        try {
-            cur->m_cb();
-            cur->m_cb = nullptr;
-            cur->m_state = TERM;
-        } catch (std::exception& ex) {
-            cur->m_state = EXCEPT;
-            CatLog_LOG_ERROR(g_logger) << "Fiber Except: " << ex.what()
-                                      << " fiber_id=" << cur->getId()
-                                      << std::endl
-                                      << CatLog::BacktraceToString();
-        } catch (...) {
-            cur->m_state = EXCEPT;
-            CatLog_LOG_ERROR(g_logger) << "Fiber Except"
-                                      << " fiber_id=" << cur->getId()
-                                      << std::endl
-                                      << CatLog::BacktraceToString();
-        }
-
-        auto raw_ptr = cur.get();
-        cur.reset();
-        raw_ptr->back();
-   //     CatLog_ASSERT2(false, "never reach fiber_id=" + std::to_string(raw_ptr->getId()));
-
-    }
+//        try {
+//            cur->m_cb();
+//            cur->m_cb = nullptr;
+//            cur->m_state = TERM;
+//        } catch (std::exception& ex) {
+//            cur->m_state = EXCEPT;
+//            CatLog_LOG_ERROR(g_logger) << "Fiber Except: " << ex.what()
+//                                      << " fiber_id=" << cur->getId()
+//                                      << std::endl
+//                                      << CatLog::BacktraceToString();
+//        } catch (...) {
+//            cur->m_state = EXCEPT;
+//            CatLog_LOG_ERROR(g_logger) << "Fiber Except"
+//                                      << " fiber_id=" << cur->getId()
+//                                      << std::endl
+//                                      << CatLog::BacktraceToString();
+//        }
+//
+//        auto raw_ptr = cur.get();
+//        cur.reset();
+//        raw_ptr->back();
+//   //     CatLog_ASSERT2(false, "never reach fiber_id=" + std::to_string(raw_ptr->getId()));
+//
+//    }
 
 }

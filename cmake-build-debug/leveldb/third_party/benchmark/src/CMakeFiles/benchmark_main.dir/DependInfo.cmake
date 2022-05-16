@@ -10,7 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_main.cc" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

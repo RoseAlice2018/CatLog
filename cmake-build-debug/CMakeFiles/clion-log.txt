@@ -1,22 +1,14 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/opt/homebrew/Cellar/gcc/11.2.0/bin/gcc-11 -DCMAKE_CXX_COMPILER=/opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/reebdeve/CLionProjects/CatLog
--- The C compiler identification is GNU 11.1.0
--- The CXX compiler identification is GNU 11.1.0
--- Checking whether C compiler has -isysroot
--- Checking whether C compiler has -isysroot - yes
--- Checking whether C compiler supports OSX deployment target flag
--- Checking whether C compiler supports OSX deployment target flag - yes
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/reebdeve/CLionProjects/CatLog
+-- The C compiler identification is AppleClang 13.1.6.13160021
+-- The CXX compiler identification is AppleClang 13.1.6.13160021
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
--- Check for working C compiler: /opt/homebrew/Cellar/gcc/11.2.0/bin/gcc-11 - skipped
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Checking whether CXX compiler has -isysroot
--- Checking whether CXX compiler has -isysroot - yes
--- Checking whether CXX compiler supports OSX deployment target flag
--- Checking whether CXX compiler supports OSX deployment target flag - yes
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 - skipped
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Found Boost: /opt/homebrew/lib/cmake/Boost-1.76.0/BoostConfig.cmake (found suitable version "1.76.0", minimum required is "1.76.0") found components: system filesystem 
@@ -35,7 +27,7 @@
 -- Looking for O_CLOEXEC
 -- Looking for O_CLOEXEC - found
 -- Performing Test HAVE_CLANG_THREAD_SAFETY
--- Performing Test HAVE_CLANG_THREAD_SAFETY - Failed
+-- Performing Test HAVE_CLANG_THREAD_SAFETY - Success
 -- Performing Test LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS
 -- Performing Test LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS - Success
 -- Performing Test HAVE_CXX17_HAS_INCLUDE
@@ -62,7 +54,7 @@
 -- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE
 -- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success
 -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
--- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Success
 -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
 -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
 -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
@@ -76,7 +68,10 @@
 -- Performing Test HAVE_CXX_FLAG_WD654
 -- Performing Test HAVE_CXX_FLAG_WD654 - Failed
 -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
--- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Success
+-- Performing Test HAVE_THREAD_SAFETY_ATTRIBUTES
+-- Performing Test HAVE_THREAD_SAFETY_ATTRIBUTES
+-- Performing Test HAVE_THREAD_SAFETY_ATTRIBUTES -- failed to compile
 -- Performing Test HAVE_CXX_FLAG_COVERAGE
 -- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
 -- Performing Test HAVE_STD_REGEX

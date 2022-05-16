@@ -69,15 +69,15 @@ include leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/flag
 leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
 leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: ../leveldb/third_party/googletest/googletest/src/gtest_main.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/src/gtest_main.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/src/gtest_main.cc
 
 leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
 leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 # Object files for target gtest_main
 gtest_main_OBJECTS = \
