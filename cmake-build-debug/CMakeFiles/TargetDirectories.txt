@@ -54,3 +54,10 @@
 /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/edit_cache.dir
 /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark_main.dir
 /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir
+/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/CMakeFiles/install/local.dir
+/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/CMakeFiles/install/strip.dir
+/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/CMakeFiles/install.dir
+/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/CMakeFiles/list_install_components.dir
+/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/CMakeFiles/Log.dir
+/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/CMakeFiles/rebuild_cache.dir
+/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/CMakeFiles/edit_cache.dir

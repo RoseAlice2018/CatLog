@@ -5,7 +5,7 @@
 		<Option title="benchmark"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\leveldb\;CMake Files\leveldb\port\;CMake Files\leveldb\cmake\;CMake Files\leveldb\third_party\;CMake Files\leveldb\third_party\googletest\;CMake Files\leveldb\third_party\googletest\googlemock\;CMake Files\leveldb\third_party\googletest\googlemock\cmake\;CMake Files\leveldb\third_party\googletest\googletest\;CMake Files\leveldb\third_party\googletest\googletest\cmake\;CMake Files\leveldb\third_party\benchmark\;CMake Files\leveldb\third_party\benchmark\cmake\;CMake Files\leveldb\third_party\benchmark\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\yaml-cpp\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\Boost-1.76.0\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.76.0\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_system-1.76.0\;CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_filesystem-1.76.0\;CMake Files\leveldb\;CMake Files\leveldb\port\;CMake Files\leveldb\cmake\;CMake Files\leveldb\third_party\;CMake Files\leveldb\third_party\googletest\;CMake Files\leveldb\third_party\googletest\googlemock\;CMake Files\leveldb\third_party\googletest\googlemock\cmake\;CMake Files\leveldb\third_party\googletest\googletest\;CMake Files\leveldb\third_party\googletest\googletest\cmake\;CMake Files\leveldb\third_party\benchmark\;CMake Files\leveldb\third_party\benchmark\cmake\;CMake Files\leveldb\third_party\benchmark\src\;CMake Files\Log\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark"/>
@@ -27,6 +27,7 @@
 					<Add option="-DHAVE_STD_REGEX"/>
 					<Add option="-DHAVE_POSIX_REGEX"/>
 					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="/opt/homebrew/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/include"/>
@@ -55,6 +56,7 @@
 					<Add option="-DHAVE_STD_REGEX"/>
 					<Add option="-DHAVE_POSIX_REGEX"/>
 					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="/opt/homebrew/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/include"/>
@@ -83,6 +85,7 @@
 					<Add option="-DHAVE_STD_REGEX"/>
 					<Add option="-DHAVE_POSIX_REGEX"/>
 					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="/opt/homebrew/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/include"/>
@@ -111,6 +114,7 @@
 					<Add option="-DHAVE_STD_REGEX"/>
 					<Add option="-DHAVE_POSIX_REGEX"/>
 					<Add option="-DHAVE_STEADY_CLOCK"/>
+					<Add directory="/opt/homebrew/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/include"/>
@@ -259,6 +263,69 @@
 		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/BoostDetectToolset-1.76.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/yaml-cpp/yaml-cpp-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/Boost-1.76.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\Boost-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/Boost-1.76.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\Boost-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_headers-1.76.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_headers-1.76.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_system-1.76.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_system-1.76.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_system-1.76.0/libboost_system-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_system-1.76.0/libboost_system-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_system-1.76.0/libboost_system-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_system-1.76.0/libboost_system-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_filesystem-1.76.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_filesystem-1.76.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/../../../../opt/homebrew/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\homebrew\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
 		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\leveldb\"/>
 		</Unit>
@@ -315,6 +382,9 @@
 		</Unit>
 		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\src\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/Log/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Log\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

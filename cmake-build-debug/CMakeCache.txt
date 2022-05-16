@@ -57,6 +57,16 @@ BENCHMARK_USE_LIBCXX:BOOL=OFF
 //Builds the googlemock subproject
 BUILD_GMOCK:BOOL=ON
 
+//The directory containing a CMake configuration file for Boost.
+Boost_DIR:PATH=/opt/homebrew/lib/cmake/Boost-1.76.0
+
+Boost_FILESYSTEM_LIBRARY_RELEASE:STRING=/opt/homebrew/lib/libboost_filesystem-mt.dylib
+
+//Path to a file.
+Boost_INCLUDE_DIR:PATH=/opt/homebrew/include
+
+Boost_SYSTEM_LIBRARY_RELEASE:STRING=/opt/homebrew/lib/libboost_system-mt.dylib
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
@@ -355,6 +365,9 @@ LIBRT:FILEPATH=LIBRT-NOTFOUND
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
+//The directory containing a CMake configuration file for YAMLCPP.
+YAMLCPP_DIR:PATH=YAMLCPP_DIR-NOTFOUND
+
 //Value Computed by CMake
 benchmark_BINARY_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark
 
@@ -363,6 +376,15 @@ benchmark_SOURCE_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/leveldb/third_p
 
 //Dependencies for the target
 benchmark_main_LIB_DEPENDS:STATIC=general;benchmark::benchmark;
+
+//The directory containing a CMake configuration file for boost_filesystem.
+boost_filesystem_DIR:PATH=/opt/homebrew/lib/cmake/boost_filesystem-1.76.0
+
+//The directory containing a CMake configuration file for boost_headers.
+boost_headers_DIR:PATH=/opt/homebrew/lib/cmake/boost_headers-1.76.0
+
+//The directory containing a CMake configuration file for boost_system.
+boost_system_DIR:PATH=/opt/homebrew/lib/cmake/boost_system-1.76.0
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock
@@ -416,6 +438,9 @@ leveldb_BINARY_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug
 //Value Computed by CMake
 leveldb_SOURCE_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/leveldb
 
+//The directory containing a CMake configuration file for yaml-cpp.
+yaml-cpp_DIR:PATH=/opt/homebrew/lib/cmake/yaml-cpp
+
 
 ########################
 # INTERNAL cache entries
@@ -427,6 +452,8 @@ BENCHMARK_CXX_FLAGS_COVERAGE-ADVANCED:INTERNAL=1
 BENCHMARK_EXE_LINKER_FLAGS_COVERAGE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BENCHMARK_SHARED_LINKER_FLAGS_COVERAGE
 BENCHMARK_SHARED_LINKER_FLAGS_COVERAGE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -563,7 +590,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -616,6 +643,8 @@ COMPILE_HAVE_STD_REGEX:INTERNAL=TRUE
 COMPILE_HAVE_STEADY_CLOCK:INTERNAL=TRUE
 //Result of TRY_COMPILE
 COMPILE_HAVE_THREAD_SAFETY_ATTRIBUTES:INTERNAL=FALSE
+//Details about finding Boost
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/opt/homebrew/lib/cmake/Boost-1.76.0/BoostConfig.cmake][cfound components: system filesystem ][v1.76.0(1.76.0)]
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.32.0 (Apple Git-132)()]
 //Details about finding Python
@@ -693,6 +722,12 @@ _Python_EXECUTABLE:INTERNAL=/Library/Developer/CommandLineTools/Library/Framewor
 //Python Properties
 _Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;8;9;64;;cpython-38-darwin;/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8;/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8;/Library/Python/3.8/site-packages;/Library/Python/3.8/site-packages
 _Python_INTERPRETER_SIGNATURE:INTERNAL=08aff68630bec5a4c6da4f45ab18d320
+//ADVANCED property for variable: boost_filesystem_DIR
+boost_filesystem_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_headers_DIR
+boost_headers_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_system_DIR
+boost_system_DIR-ADVANCED:INTERNAL=1
 cmake_package_name:INTERNAL=GTest
 generated_dir:INTERNAL=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/generated
 //ADVANCED property for variable: gmock_build_tests

@@ -343,6 +343,19 @@ benchmark/fast:
 	$(MAKE) $(MAKESILENT) -f leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/build.make leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/build
 .PHONY : benchmark/fast
 
+#=============================================================================
+# Target rules for targets named Log
+
+# Build rule for target.
+Log: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Log
+.PHONY : Log
+
+# fast build rule for target.
+Log/fast:
+	$(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/build
+.PHONY : Log/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -380,6 +393,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... CatLog"
+	@echo "... Log"
 	@echo "... benchmark"
 	@echo "... benchmark_main"
 	@echo "... c_test"

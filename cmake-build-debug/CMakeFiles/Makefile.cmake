@@ -34,6 +34,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Compiler/Clang.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Compiler/GNU.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FindBoost.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FindGit.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FindPackageMessage.cmake"
@@ -54,6 +55,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/ProcessorCount.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake"
   "../CMakeLists.txt"
+  "../Log/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
@@ -76,6 +78,27 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../leveldb/third_party/googletest/googletest/cmake/gtest.pc.in"
   "../leveldb/third_party/googletest/googletest/cmake/gtest_main.pc.in"
   "../leveldb/third_party/googletest/googletest/cmake/internal_utils.cmake"
+  "/opt/homebrew/lib/cmake/Boost-1.76.0/BoostConfig.cmake"
+  "/opt/homebrew/lib/cmake/Boost-1.76.0/BoostConfigVersion.cmake"
+  "/opt/homebrew/lib/cmake/BoostDetectToolset-1.76.0.cmake"
+  "/opt/homebrew/lib/cmake/boost_filesystem-1.76.0/boost_filesystem-config-version.cmake"
+  "/opt/homebrew/lib/cmake/boost_filesystem-1.76.0/boost_filesystem-config.cmake"
+  "/opt/homebrew/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-mt-shared.cmake"
+  "/opt/homebrew/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-mt-static.cmake"
+  "/opt/homebrew/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-shared.cmake"
+  "/opt/homebrew/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-static.cmake"
+  "/opt/homebrew/lib/cmake/boost_headers-1.76.0/boost_headers-config-version.cmake"
+  "/opt/homebrew/lib/cmake/boost_headers-1.76.0/boost_headers-config.cmake"
+  "/opt/homebrew/lib/cmake/boost_system-1.76.0/boost_system-config-version.cmake"
+  "/opt/homebrew/lib/cmake/boost_system-1.76.0/boost_system-config.cmake"
+  "/opt/homebrew/lib/cmake/boost_system-1.76.0/libboost_system-variant-mt-shared.cmake"
+  "/opt/homebrew/lib/cmake/boost_system-1.76.0/libboost_system-variant-mt-static.cmake"
+  "/opt/homebrew/lib/cmake/boost_system-1.76.0/libboost_system-variant-shared.cmake"
+  "/opt/homebrew/lib/cmake/boost_system-1.76.0/libboost_system-variant-static.cmake"
+  "/opt/homebrew/lib/cmake/yaml-cpp/yaml-cpp-config-version.cmake"
+  "/opt/homebrew/lib/cmake/yaml-cpp/yaml-cpp-config.cmake"
+  "/opt/homebrew/lib/cmake/yaml-cpp/yaml-cpp-targets-release.cmake"
+  "/opt/homebrew/lib/cmake/yaml-cpp/yaml-cpp-targets.cmake"
   )
 
 # The corresponding makefile is:
@@ -105,6 +128,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "leveldb/third_party/benchmark/src/generated/benchmarkConfig.cmake"
   "leveldb/third_party/benchmark/src/generated/benchmark.pc"
   "leveldb/third_party/benchmark/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Log/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -123,4 +147,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "leveldb/third_party/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "leveldb/third_party/benchmark/src/CMakeFiles/benchmark_main.dir/DependInfo.cmake"
   "leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/DependInfo.cmake"
+  "Log/CMakeFiles/Log.dir/DependInfo.cmake"
   )

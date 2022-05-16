@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = -DLEVELDB_PLATFORM_POSIX=1
 
-CXX_INCLUDES = -I/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include -I/Users/reebdeve/CLionProjects/CatLog/leveldb/. -I/Users/reebdeve/CLionProjects/CatLog/leveldb/include -isystem /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include -isystem /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock -isystem /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include -isystem /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest
+CXX_INCLUDES = -I/opt/homebrew/include -I/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include -I/Users/reebdeve/CLionProjects/CatLog/leveldb/. -I/Users/reebdeve/CLionProjects/CatLog/leveldb/include -isystem /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock/include -isystem /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock -isystem /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include -isystem /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest
 
 CXX_FLAGSarm64 =  -fno-exceptions -fno-rtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Werror -Wthread-safety -std=gnu++14
 

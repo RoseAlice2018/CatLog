@@ -15,6 +15,7 @@
       <config projectName="CatLog" targetName="gtest_main" />
       <config projectName="CatLog" targetName="gmock_main" />
       <config projectName="CatLog" targetName="db_bench" />
+      <config projectName="CatLog" targetName="Log" />
       <config projectName="CatLog" targetName="gtest" />
     </generated>
   </component>
@@ -25,42 +26,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35dfd30-eeeb-43fa-af86-fc27dd15860b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/third_party/leveldb/include/port/port_config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/env.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/env.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/fiber.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/macro.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/macro.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/mutex.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/mutex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/noncopyable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/singleton.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/thread.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/thread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/util.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CatLog.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CatLog" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CatLog.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CatLog.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gcc-7.5.0.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/CatLog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/CatLog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/CatLog1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/CatLog1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatLog.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/CatLog.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatLog1.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/CatLog1.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Log.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Log.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mutex.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/mutex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singleton.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/singleton.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/leveldb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/c_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/c_test.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/c_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/c_test.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/c_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/c_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/db_bench.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/db_bench.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/db_bench.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/db_bench.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/db_bench.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/db_bench.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/db_bench_sqlite3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/db_bench_sqlite3.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/db_bench_sqlite3.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/db_bench_sqlite3.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/db_bench_sqlite3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/db_bench_sqlite3.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/env_posix_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/env_posix_test.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/env_posix_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/env_posix_test.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/env_posix_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/env_posix_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb_tests.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb_tests.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb_tests.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb_tests.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb_tests.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldb_tests.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldbutil.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldbutil.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldbutil.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/leveldbutil.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/leveldb.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/leveldb.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/libleveldb.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/libleveldb.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/benchmark.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/benchmark.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/benchmark_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/benchmark/src/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/gmock.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googlemock/gmock.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest-distribution.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest-distribution.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/CMakeFiles/gtest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/gtest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/leveldb/third_party/googletest/googletest/gtest.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/CatLog1.h" beforeDir="false" afterPath="$PROJECT_DIR$/Log/CatLog1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CatLog1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Log/CatLog1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +141,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-Log" />
   </component>
   <component name="ProjectId" id="27SmWgNGPHlYNa1dhrel4qiO3Au" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -117,6 +173,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Log" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/include" />
@@ -135,6 +192,11 @@
       </method>
     </configuration>
     <configuration name="CatLog" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CatLog" TARGET_NAME="CatLog" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CatLog" RUN_TARGET_NAME="CatLog">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Log" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CatLog" TARGET_NAME="Log" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -218,6 +280,7 @@
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="CMake Application.Log" />
       <item itemvalue="Google Test.leveldb_tests" />
     </list>
   </component>
@@ -232,7 +295,7 @@
       <workItem from="1649321897034" duration="19693000" />
       <workItem from="1649523115834" duration="714000" />
       <workItem from="1649524022721" duration="11598000" />
-      <workItem from="1651059722066" duration="36258000" />
+      <workItem from="1651059722066" duration="48828000" />
     </task>
     <servers />
   </component>

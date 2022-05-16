@@ -89,6 +89,10 @@ CatLog_EXTERNAL_OBJECTS =
 CatLog: CMakeFiles/CatLog.dir/main.cpp.o
 CatLog: CMakeFiles/CatLog.dir/build.make
 CatLog: leveldb/libleveldb.a
+CatLog: Log/libLog.a
+CatLog: /opt/homebrew/lib/libboost_system-mt.dylib
+CatLog: /opt/homebrew/lib/libboost_filesystem-mt.dylib
+CatLog: /opt/homebrew/lib/libyaml-cpp.0.6.3.dylib
 CatLog: CMakeFiles/CatLog.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CatLog"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CatLog.dir/link.txt --verbose=$(VERBOSE)
