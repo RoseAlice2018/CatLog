@@ -35,11 +35,11 @@ namespace CatLog {
     }
 
     FiberSemaphore::~FiberSemaphore() {
-        SYLAR_ASSERT(m_waiters.empty());
+        //SYLAR_ASSERT(m_waiters.empty());
     }
 
     bool FiberSemaphore::tryWait() {
-        SYLAR_ASSERT(Scheduler::GetThis());
+        //SYLAR_ASSERT(Scheduler::GetThis());
         {
             MutexType::Lock lock(m_mutex);
             if(m_concurrency > 0u) {
@@ -51,7 +51,7 @@ namespace CatLog {
     }
 
     void FiberSemaphore::wait() {
-        SYLAR_ASSERT(Scheduler::GetThis());
+        //SYLAR_ASSERT(Scheduler::GetThis());
         {
             MutexType::Lock lock(m_mutex);
             if(m_concurrency > 0u) {

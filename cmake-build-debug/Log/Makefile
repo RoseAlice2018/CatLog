@@ -199,6 +199,30 @@ CatLog1.cpp.s:
 	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/CatLog1.cpp.s
 .PHONY : CatLog1.cpp.s
 
+config.o: config.cpp.o
+.PHONY : config.o
+
+# target to build an object file
+config.cpp.o:
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/config.cpp.o
+.PHONY : config.cpp.o
+
+config.i: config.cpp.i
+.PHONY : config.i
+
+# target to preprocess a source file
+config.cpp.i:
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/config.cpp.i
+.PHONY : config.cpp.i
+
+config.s: config.cpp.s
+.PHONY : config.s
+
+# target to generate assembly for a file
+config.cpp.s:
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/config.cpp.s
+.PHONY : config.cpp.s
+
 env.o: env.cpp.o
 .PHONY : env.o
 
@@ -223,29 +247,29 @@ env.cpp.s:
 	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/env.cpp.s
 .PHONY : env.cpp.s
 
-macro.o: macro.cpp.o
-.PHONY : macro.o
+fiber.o: fiber.cpp.o
+.PHONY : fiber.o
 
 # target to build an object file
-macro.cpp.o:
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/macro.cpp.o
-.PHONY : macro.cpp.o
+fiber.cpp.o:
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/fiber.cpp.o
+.PHONY : fiber.cpp.o
 
-macro.i: macro.cpp.i
-.PHONY : macro.i
+fiber.i: fiber.cpp.i
+.PHONY : fiber.i
 
 # target to preprocess a source file
-macro.cpp.i:
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/macro.cpp.i
-.PHONY : macro.cpp.i
+fiber.cpp.i:
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/fiber.cpp.i
+.PHONY : fiber.cpp.i
 
-macro.s: macro.cpp.s
-.PHONY : macro.s
+fiber.s: fiber.cpp.s
+.PHONY : fiber.s
 
 # target to generate assembly for a file
-macro.cpp.s:
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/macro.cpp.s
-.PHONY : macro.cpp.s
+fiber.cpp.s:
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/fiber.cpp.s
+.PHONY : fiber.cpp.s
 
 mutex.o: mutex.cpp.o
 .PHONY : mutex.o
@@ -270,6 +294,30 @@ mutex.s: mutex.cpp.s
 mutex.cpp.s:
 	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/mutex.cpp.s
 .PHONY : mutex.cpp.s
+
+scheduler.o: scheduler.cpp.o
+.PHONY : scheduler.o
+
+# target to build an object file
+scheduler.cpp.o:
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/scheduler.cpp.o
+.PHONY : scheduler.cpp.o
+
+scheduler.i: scheduler.cpp.i
+.PHONY : scheduler.i
+
+# target to preprocess a source file
+scheduler.cpp.i:
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/scheduler.cpp.i
+.PHONY : scheduler.cpp.i
+
+scheduler.s: scheduler.cpp.s
+.PHONY : scheduler.s
+
+# target to generate assembly for a file
+scheduler.cpp.s:
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/scheduler.cpp.s
+.PHONY : scheduler.cpp.s
 
 thread.o: thread.cpp.o
 .PHONY : thread.o
@@ -335,15 +383,21 @@ help:
 	@echo "... CatLog1.o"
 	@echo "... CatLog1.i"
 	@echo "... CatLog1.s"
+	@echo "... config.o"
+	@echo "... config.i"
+	@echo "... config.s"
 	@echo "... env.o"
 	@echo "... env.i"
 	@echo "... env.s"
-	@echo "... macro.o"
-	@echo "... macro.i"
-	@echo "... macro.s"
+	@echo "... fiber.o"
+	@echo "... fiber.i"
+	@echo "... fiber.s"
 	@echo "... mutex.o"
 	@echo "... mutex.i"
 	@echo "... mutex.s"
+	@echo "... scheduler.o"
+	@echo "... scheduler.i"
+	@echo "... scheduler.s"
 	@echo "... thread.o"
 	@echo "... thread.i"
 	@echo "... thread.s"

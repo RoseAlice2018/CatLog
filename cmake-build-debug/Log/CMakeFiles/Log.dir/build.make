@@ -131,18 +131,44 @@ Log/CMakeFiles/Log.dir/mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Log.dir/mutex.cpp.s"
 	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/Log/mutex.cpp -o CMakeFiles/Log.dir/mutex.cpp.s
 
-Log/CMakeFiles/Log.dir/macro.cpp.o: Log/CMakeFiles/Log.dir/flags.make
-Log/CMakeFiles/Log.dir/macro.cpp.o: ../Log/macro.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Log/CMakeFiles/Log.dir/macro.cpp.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Log.dir/macro.cpp.o -c /Users/reebdeve/CLionProjects/CatLog/Log/macro.cpp
+Log/CMakeFiles/Log.dir/scheduler.cpp.o: Log/CMakeFiles/Log.dir/flags.make
+Log/CMakeFiles/Log.dir/scheduler.cpp.o: ../Log/scheduler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Log/CMakeFiles/Log.dir/scheduler.cpp.o"
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Log.dir/scheduler.cpp.o -c /Users/reebdeve/CLionProjects/CatLog/Log/scheduler.cpp
 
-Log/CMakeFiles/Log.dir/macro.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Log.dir/macro.cpp.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/Log/macro.cpp > CMakeFiles/Log.dir/macro.cpp.i
+Log/CMakeFiles/Log.dir/scheduler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Log.dir/scheduler.cpp.i"
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/Log/scheduler.cpp > CMakeFiles/Log.dir/scheduler.cpp.i
 
-Log/CMakeFiles/Log.dir/macro.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Log.dir/macro.cpp.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/Log/macro.cpp -o CMakeFiles/Log.dir/macro.cpp.s
+Log/CMakeFiles/Log.dir/scheduler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Log.dir/scheduler.cpp.s"
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/Log/scheduler.cpp -o CMakeFiles/Log.dir/scheduler.cpp.s
+
+Log/CMakeFiles/Log.dir/fiber.cpp.o: Log/CMakeFiles/Log.dir/flags.make
+Log/CMakeFiles/Log.dir/fiber.cpp.o: ../Log/fiber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Log/CMakeFiles/Log.dir/fiber.cpp.o"
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Log.dir/fiber.cpp.o -c /Users/reebdeve/CLionProjects/CatLog/Log/fiber.cpp
+
+Log/CMakeFiles/Log.dir/fiber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Log.dir/fiber.cpp.i"
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/Log/fiber.cpp > CMakeFiles/Log.dir/fiber.cpp.i
+
+Log/CMakeFiles/Log.dir/fiber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Log.dir/fiber.cpp.s"
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/Log/fiber.cpp -o CMakeFiles/Log.dir/fiber.cpp.s
+
+Log/CMakeFiles/Log.dir/config.cpp.o: Log/CMakeFiles/Log.dir/flags.make
+Log/CMakeFiles/Log.dir/config.cpp.o: ../Log/config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Log/CMakeFiles/Log.dir/config.cpp.o"
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Log.dir/config.cpp.o -c /Users/reebdeve/CLionProjects/CatLog/Log/config.cpp
+
+Log/CMakeFiles/Log.dir/config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Log.dir/config.cpp.i"
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/Log/config.cpp > CMakeFiles/Log.dir/config.cpp.i
+
+Log/CMakeFiles/Log.dir/config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Log.dir/config.cpp.s"
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/Log/config.cpp -o CMakeFiles/Log.dir/config.cpp.s
 
 # Object files for target Log
 Log_OBJECTS = \
@@ -151,7 +177,9 @@ Log_OBJECTS = \
 "CMakeFiles/Log.dir/util.cpp.o" \
 "CMakeFiles/Log.dir/thread.cpp.o" \
 "CMakeFiles/Log.dir/mutex.cpp.o" \
-"CMakeFiles/Log.dir/macro.cpp.o"
+"CMakeFiles/Log.dir/scheduler.cpp.o" \
+"CMakeFiles/Log.dir/fiber.cpp.o" \
+"CMakeFiles/Log.dir/config.cpp.o"
 
 # External object files for target Log
 Log_EXTERNAL_OBJECTS =
@@ -161,10 +189,12 @@ Log/libLog.a: Log/CMakeFiles/Log.dir/env.cpp.o
 Log/libLog.a: Log/CMakeFiles/Log.dir/util.cpp.o
 Log/libLog.a: Log/CMakeFiles/Log.dir/thread.cpp.o
 Log/libLog.a: Log/CMakeFiles/Log.dir/mutex.cpp.o
-Log/libLog.a: Log/CMakeFiles/Log.dir/macro.cpp.o
+Log/libLog.a: Log/CMakeFiles/Log.dir/scheduler.cpp.o
+Log/libLog.a: Log/CMakeFiles/Log.dir/fiber.cpp.o
+Log/libLog.a: Log/CMakeFiles/Log.dir/config.cpp.o
 Log/libLog.a: Log/CMakeFiles/Log.dir/build.make
 Log/libLog.a: Log/CMakeFiles/Log.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libLog.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libLog.a"
 	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && $(CMAKE_COMMAND) -P CMakeFiles/Log.dir/cmake_clean_target.cmake
 	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Log.dir/link.txt --verbose=$(VERBOSE)
 

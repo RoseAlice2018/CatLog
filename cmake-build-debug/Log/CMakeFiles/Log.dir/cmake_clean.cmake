@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Log.dir/CatLog1.cpp.o"
+  "CMakeFiles/Log.dir/config.cpp.o"
   "CMakeFiles/Log.dir/env.cpp.o"
-  "CMakeFiles/Log.dir/macro.cpp.o"
+  "CMakeFiles/Log.dir/fiber.cpp.o"
   "CMakeFiles/Log.dir/mutex.cpp.o"
+  "CMakeFiles/Log.dir/scheduler.cpp.o"
   "CMakeFiles/Log.dir/thread.cpp.o"
   "CMakeFiles/Log.dir/util.cpp.o"
   "libLog.a"
