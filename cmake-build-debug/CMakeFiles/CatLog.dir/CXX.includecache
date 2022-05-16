@@ -121,6 +121,8 @@ memory
 /Users/reebdeve/CLionProjects/CatLog/Log/thread.h
 mutex.h
 /Users/reebdeve/CLionProjects/CatLog/Log/mutex.h
+string
+-
 
 /Users/reebdeve/CLionProjects/CatLog/Log/util.h
 cxxabi.h

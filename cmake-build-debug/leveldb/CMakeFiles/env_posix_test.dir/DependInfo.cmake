@@ -11,7 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix_test.cc" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/CMakeFiles/env_posix_test.dir/util/env_posix_test.cc.o"
   "/Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/CMakeFiles/env_posix_test.dir/util/testutil.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

@@ -69,15 +69,15 @@ include leveldb/CMakeFiles/leveldbutil.dir/flags.make
 leveldb/CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.o: leveldb/CMakeFiles/leveldbutil.dir/flags.make
 leveldb/CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.o: ../leveldb/db/leveldbutil.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leveldb/CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/leveldbutil.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/leveldbutil.cc
 
 leveldb/CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/leveldbutil.cc > CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/leveldbutil.cc > CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.i
 
 leveldb/CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/leveldbutil.cc -o CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/leveldbutil.cc -o CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.s
 
 # Object files for target leveldbutil
 leveldbutil_OBJECTS = \

@@ -9,6 +9,7 @@
 #include "singleton.h"
 #include "thread.h"
 #include <map>
+#include <string>
 #include <vector>
 
 namespace CatLog {
@@ -21,7 +22,7 @@ namespace CatLog {
         void add(const std::string& key, const std::string& val);
         bool has(const std::string& key);
         void del(const std::string& key);
-        std::string get(const std::string& key, const std::string& default_value = "");
+        std::string get(const std::string& key, const std::string& default_value );
 
         void addHelp(const std::string& key, const std::string& desc);
         void removeHelp(const std::string& key);
@@ -31,7 +32,7 @@ namespace CatLog {
         const std::string& getCwd() const { return m_cwd;}
 
         bool setEnv(const std::string& key, const std::string& val);
-        std::string getEnv(const std::string& key, const std::string& default_value = "");
+        std::string getEnv(const std::string& key, const std::string& default_value );
 
         std::string getAbsolutePath(const std::string& path) const;
         std::string getAbsoluteWorkPath(const std::string& path) const;

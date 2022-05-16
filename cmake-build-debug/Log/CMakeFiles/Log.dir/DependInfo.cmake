@@ -17,7 +17,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/reebdeve/CLionProjects/CatLog/Log/thread.cpp" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/CMakeFiles/Log.dir/thread.cpp.o"
   "/Users/reebdeve/CLionProjects/CatLog/Log/util.cpp" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/CMakeFiles/Log.dir/util.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

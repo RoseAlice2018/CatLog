@@ -11,7 +11,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/reebdeve/CLionProjects/CatLog/leveldb/db/c_test.c" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/CMakeFiles/c_test.dir/db/c_test.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
@@ -32,7 +32,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/reebdeve/CLionProjects/CatLog/leveldb/util/testutil.cc" "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/CMakeFiles/c_test.dir/util/testutil.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX

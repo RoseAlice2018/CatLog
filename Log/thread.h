@@ -6,7 +6,7 @@
 #define CATLOG_THREAD_H
 
 #include "mutex.h"
-
+#include <string>
 namespace CatLog{
 /**
  * @brief 线程类

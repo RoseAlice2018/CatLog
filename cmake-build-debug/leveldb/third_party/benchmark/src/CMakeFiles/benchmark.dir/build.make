@@ -69,249 +69,249 @@ include leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark.cc.o: ../leveldb/third_party/benchmark/src/benchmark.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/benchmark.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/benchmark.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/benchmark.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark.cc > CMakeFiles/benchmark.dir/benchmark.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark.cc > CMakeFiles/benchmark.dir/benchmark.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/benchmark.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark.cc -o CMakeFiles/benchmark.dir/benchmark.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark.cc -o CMakeFiles/benchmark.dir/benchmark.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o: ../leveldb/third_party/benchmark/src/benchmark_api_internal.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_api_internal.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_api_internal.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/benchmark_api_internal.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_api_internal.cc > CMakeFiles/benchmark.dir/benchmark_api_internal.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_api_internal.cc > CMakeFiles/benchmark.dir/benchmark_api_internal.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/benchmark_api_internal.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_api_internal.cc -o CMakeFiles/benchmark.dir/benchmark_api_internal.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_api_internal.cc -o CMakeFiles/benchmark.dir/benchmark_api_internal.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o: ../leveldb/third_party/benchmark/src/benchmark_name.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/benchmark_name.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_name.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/benchmark_name.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_name.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_name.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/benchmark_name.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_name.cc > CMakeFiles/benchmark.dir/benchmark_name.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_name.cc > CMakeFiles/benchmark.dir/benchmark_name.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_name.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/benchmark_name.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_name.cc -o CMakeFiles/benchmark.dir/benchmark_name.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_name.cc -o CMakeFiles/benchmark.dir/benchmark_name.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o: ../leveldb/third_party/benchmark/src/benchmark_register.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/benchmark_register.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_register.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/benchmark_register.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_register.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_register.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/benchmark_register.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_register.cc > CMakeFiles/benchmark.dir/benchmark_register.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_register.cc > CMakeFiles/benchmark.dir/benchmark_register.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_register.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/benchmark_register.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_register.cc -o CMakeFiles/benchmark.dir/benchmark_register.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_register.cc -o CMakeFiles/benchmark.dir/benchmark_register.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o: ../leveldb/third_party/benchmark/src/benchmark_runner.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/benchmark_runner.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_runner.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/benchmark_runner.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_runner.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/benchmark_runner.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_runner.cc > CMakeFiles/benchmark.dir/benchmark_runner.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_runner.cc > CMakeFiles/benchmark.dir/benchmark_runner.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/benchmark_runner.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_runner.cc -o CMakeFiles/benchmark.dir/benchmark_runner.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/benchmark_runner.cc -o CMakeFiles/benchmark.dir/benchmark_runner.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/colorprint.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/colorprint.cc.o: ../leveldb/third_party/benchmark/src/colorprint.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/colorprint.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/colorprint.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/colorprint.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/colorprint.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/colorprint.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/colorprint.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/colorprint.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/colorprint.cc > CMakeFiles/benchmark.dir/colorprint.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/colorprint.cc > CMakeFiles/benchmark.dir/colorprint.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/colorprint.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/colorprint.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/colorprint.cc -o CMakeFiles/benchmark.dir/colorprint.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/colorprint.cc -o CMakeFiles/benchmark.dir/colorprint.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o: ../leveldb/third_party/benchmark/src/commandlineflags.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/commandlineflags.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/commandlineflags.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/commandlineflags.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/commandlineflags.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/commandlineflags.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/commandlineflags.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/commandlineflags.cc > CMakeFiles/benchmark.dir/commandlineflags.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/commandlineflags.cc > CMakeFiles/benchmark.dir/commandlineflags.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/commandlineflags.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/commandlineflags.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/commandlineflags.cc -o CMakeFiles/benchmark.dir/commandlineflags.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/commandlineflags.cc -o CMakeFiles/benchmark.dir/commandlineflags.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/complexity.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/complexity.cc.o: ../leveldb/third_party/benchmark/src/complexity.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/complexity.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/complexity.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/complexity.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/complexity.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/complexity.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/complexity.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/complexity.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/complexity.cc > CMakeFiles/benchmark.dir/complexity.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/complexity.cc > CMakeFiles/benchmark.dir/complexity.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/complexity.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/complexity.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/complexity.cc -o CMakeFiles/benchmark.dir/complexity.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/complexity.cc -o CMakeFiles/benchmark.dir/complexity.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/console_reporter.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/console_reporter.cc.o: ../leveldb/third_party/benchmark/src/console_reporter.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/console_reporter.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/console_reporter.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/console_reporter.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/console_reporter.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/console_reporter.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/console_reporter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/console_reporter.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/console_reporter.cc > CMakeFiles/benchmark.dir/console_reporter.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/console_reporter.cc > CMakeFiles/benchmark.dir/console_reporter.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/console_reporter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/console_reporter.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/console_reporter.cc -o CMakeFiles/benchmark.dir/console_reporter.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/console_reporter.cc -o CMakeFiles/benchmark.dir/console_reporter.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/counter.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/counter.cc.o: ../leveldb/third_party/benchmark/src/counter.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/counter.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/counter.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/counter.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/counter.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/counter.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/counter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/counter.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/counter.cc > CMakeFiles/benchmark.dir/counter.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/counter.cc > CMakeFiles/benchmark.dir/counter.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/counter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/counter.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/counter.cc -o CMakeFiles/benchmark.dir/counter.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/counter.cc -o CMakeFiles/benchmark.dir/counter.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o: ../leveldb/third_party/benchmark/src/csv_reporter.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/csv_reporter.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/csv_reporter.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/csv_reporter.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/csv_reporter.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/csv_reporter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/csv_reporter.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/csv_reporter.cc > CMakeFiles/benchmark.dir/csv_reporter.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/csv_reporter.cc > CMakeFiles/benchmark.dir/csv_reporter.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/csv_reporter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/csv_reporter.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/csv_reporter.cc -o CMakeFiles/benchmark.dir/csv_reporter.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/csv_reporter.cc -o CMakeFiles/benchmark.dir/csv_reporter.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/json_reporter.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/json_reporter.cc.o: ../leveldb/third_party/benchmark/src/json_reporter.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/json_reporter.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/json_reporter.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/json_reporter.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/json_reporter.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/json_reporter.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/json_reporter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/json_reporter.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/json_reporter.cc > CMakeFiles/benchmark.dir/json_reporter.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/json_reporter.cc > CMakeFiles/benchmark.dir/json_reporter.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/json_reporter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/json_reporter.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/json_reporter.cc -o CMakeFiles/benchmark.dir/json_reporter.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/json_reporter.cc -o CMakeFiles/benchmark.dir/json_reporter.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/perf_counters.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/perf_counters.cc.o: ../leveldb/third_party/benchmark/src/perf_counters.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/perf_counters.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/perf_counters.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/perf_counters.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/perf_counters.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/perf_counters.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/perf_counters.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/perf_counters.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/perf_counters.cc > CMakeFiles/benchmark.dir/perf_counters.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/perf_counters.cc > CMakeFiles/benchmark.dir/perf_counters.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/perf_counters.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/perf_counters.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/perf_counters.cc -o CMakeFiles/benchmark.dir/perf_counters.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/perf_counters.cc -o CMakeFiles/benchmark.dir/perf_counters.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/reporter.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/reporter.cc.o: ../leveldb/third_party/benchmark/src/reporter.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/reporter.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/reporter.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/reporter.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/reporter.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/reporter.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/reporter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/reporter.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/reporter.cc > CMakeFiles/benchmark.dir/reporter.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/reporter.cc > CMakeFiles/benchmark.dir/reporter.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/reporter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/reporter.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/reporter.cc -o CMakeFiles/benchmark.dir/reporter.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/reporter.cc -o CMakeFiles/benchmark.dir/reporter.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/sleep.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/sleep.cc.o: ../leveldb/third_party/benchmark/src/sleep.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/sleep.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/sleep.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sleep.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/sleep.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sleep.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/sleep.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/sleep.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sleep.cc > CMakeFiles/benchmark.dir/sleep.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sleep.cc > CMakeFiles/benchmark.dir/sleep.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/sleep.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/sleep.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sleep.cc -o CMakeFiles/benchmark.dir/sleep.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sleep.cc -o CMakeFiles/benchmark.dir/sleep.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/statistics.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/statistics.cc.o: ../leveldb/third_party/benchmark/src/statistics.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/statistics.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/statistics.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/statistics.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/statistics.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/statistics.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/statistics.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/statistics.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/statistics.cc > CMakeFiles/benchmark.dir/statistics.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/statistics.cc > CMakeFiles/benchmark.dir/statistics.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/statistics.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/statistics.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/statistics.cc -o CMakeFiles/benchmark.dir/statistics.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/statistics.cc -o CMakeFiles/benchmark.dir/statistics.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/string_util.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/string_util.cc.o: ../leveldb/third_party/benchmark/src/string_util.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/string_util.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/string_util.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/string_util.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/string_util.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/string_util.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/string_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/string_util.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/string_util.cc > CMakeFiles/benchmark.dir/string_util.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/string_util.cc > CMakeFiles/benchmark.dir/string_util.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/string_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/string_util.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/string_util.cc -o CMakeFiles/benchmark.dir/string_util.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/string_util.cc -o CMakeFiles/benchmark.dir/string_util.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/sysinfo.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/sysinfo.cc.o: ../leveldb/third_party/benchmark/src/sysinfo.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/sysinfo.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/sysinfo.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sysinfo.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/sysinfo.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sysinfo.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/sysinfo.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/sysinfo.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sysinfo.cc > CMakeFiles/benchmark.dir/sysinfo.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sysinfo.cc > CMakeFiles/benchmark.dir/sysinfo.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/sysinfo.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/sysinfo.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sysinfo.cc -o CMakeFiles/benchmark.dir/sysinfo.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/sysinfo.cc -o CMakeFiles/benchmark.dir/sysinfo.cc.s
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/timers.cc.o: leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/flags.make
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/timers.cc.o: ../leveldb/third_party/benchmark/src/timers.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/timers.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/timers.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/timers.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark.dir/timers.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/timers.cc
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/timers.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/timers.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/timers.cc > CMakeFiles/benchmark.dir/timers.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/timers.cc > CMakeFiles/benchmark.dir/timers.cc.i
 
 leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/timers.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/timers.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/timers.cc -o CMakeFiles/benchmark.dir/timers.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/timers.cc -o CMakeFiles/benchmark.dir/timers.cc.s
 
 # Object files for target benchmark
 benchmark_OBJECTS = \

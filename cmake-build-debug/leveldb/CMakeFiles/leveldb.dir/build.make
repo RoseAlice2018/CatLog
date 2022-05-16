@@ -69,496 +69,496 @@ include leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/builder.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/builder.cc.o: ../leveldb/db/builder.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/builder.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/builder.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/builder.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/builder.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/builder.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/builder.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/builder.cc > CMakeFiles/leveldb.dir/db/builder.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/builder.cc > CMakeFiles/leveldb.dir/db/builder.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/builder.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/builder.cc -o CMakeFiles/leveldb.dir/db/builder.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/builder.cc -o CMakeFiles/leveldb.dir/db/builder.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/c.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/c.cc.o: ../leveldb/db/c.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/c.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/c.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/c.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/c.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/c.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/c.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/c.cc > CMakeFiles/leveldb.dir/db/c.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/c.cc > CMakeFiles/leveldb.dir/db/c.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/c.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/c.cc -o CMakeFiles/leveldb.dir/db/c.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/c.cc -o CMakeFiles/leveldb.dir/db/c.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/db_impl.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/db_impl.cc.o: ../leveldb/db/db_impl.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/db_impl.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/db_impl.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_impl.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/db_impl.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_impl.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/db_impl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/db_impl.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_impl.cc > CMakeFiles/leveldb.dir/db/db_impl.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_impl.cc > CMakeFiles/leveldb.dir/db/db_impl.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/db_impl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/db_impl.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_impl.cc -o CMakeFiles/leveldb.dir/db/db_impl.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_impl.cc -o CMakeFiles/leveldb.dir/db/db_impl.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/db_iter.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/db_iter.cc.o: ../leveldb/db/db_iter.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/db_iter.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/db_iter.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_iter.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/db_iter.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_iter.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/db_iter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/db_iter.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_iter.cc > CMakeFiles/leveldb.dir/db/db_iter.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_iter.cc > CMakeFiles/leveldb.dir/db/db_iter.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/db_iter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/db_iter.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_iter.cc -o CMakeFiles/leveldb.dir/db/db_iter.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/db_iter.cc -o CMakeFiles/leveldb.dir/db/db_iter.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/dbformat.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/dbformat.cc.o: ../leveldb/db/dbformat.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/dbformat.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/dbformat.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/dbformat.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/dbformat.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/dbformat.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/dbformat.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/dbformat.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/dbformat.cc > CMakeFiles/leveldb.dir/db/dbformat.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/dbformat.cc > CMakeFiles/leveldb.dir/db/dbformat.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/dbformat.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/dbformat.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/dbformat.cc -o CMakeFiles/leveldb.dir/db/dbformat.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/dbformat.cc -o CMakeFiles/leveldb.dir/db/dbformat.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/dumpfile.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/dumpfile.cc.o: ../leveldb/db/dumpfile.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/dumpfile.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/dumpfile.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/dumpfile.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/dumpfile.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/dumpfile.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/dumpfile.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/dumpfile.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/dumpfile.cc > CMakeFiles/leveldb.dir/db/dumpfile.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/dumpfile.cc > CMakeFiles/leveldb.dir/db/dumpfile.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/dumpfile.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/dumpfile.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/dumpfile.cc -o CMakeFiles/leveldb.dir/db/dumpfile.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/dumpfile.cc -o CMakeFiles/leveldb.dir/db/dumpfile.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/filename.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/filename.cc.o: ../leveldb/db/filename.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/filename.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/filename.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/filename.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/filename.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/filename.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/filename.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/filename.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/filename.cc > CMakeFiles/leveldb.dir/db/filename.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/filename.cc > CMakeFiles/leveldb.dir/db/filename.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/filename.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/filename.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/filename.cc -o CMakeFiles/leveldb.dir/db/filename.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/filename.cc -o CMakeFiles/leveldb.dir/db/filename.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/log_reader.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/log_reader.cc.o: ../leveldb/db/log_reader.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/log_reader.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/log_reader.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_reader.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/log_reader.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_reader.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/log_reader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/log_reader.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_reader.cc > CMakeFiles/leveldb.dir/db/log_reader.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_reader.cc > CMakeFiles/leveldb.dir/db/log_reader.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/log_reader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/log_reader.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_reader.cc -o CMakeFiles/leveldb.dir/db/log_reader.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_reader.cc -o CMakeFiles/leveldb.dir/db/log_reader.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/log_writer.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/log_writer.cc.o: ../leveldb/db/log_writer.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/log_writer.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/log_writer.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_writer.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/log_writer.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_writer.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/log_writer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/log_writer.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_writer.cc > CMakeFiles/leveldb.dir/db/log_writer.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_writer.cc > CMakeFiles/leveldb.dir/db/log_writer.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/log_writer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/log_writer.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_writer.cc -o CMakeFiles/leveldb.dir/db/log_writer.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/log_writer.cc -o CMakeFiles/leveldb.dir/db/log_writer.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/memtable.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/memtable.cc.o: ../leveldb/db/memtable.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/memtable.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/memtable.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/memtable.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/memtable.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/memtable.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/memtable.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/memtable.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/memtable.cc > CMakeFiles/leveldb.dir/db/memtable.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/memtable.cc > CMakeFiles/leveldb.dir/db/memtable.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/memtable.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/memtable.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/memtable.cc -o CMakeFiles/leveldb.dir/db/memtable.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/memtable.cc -o CMakeFiles/leveldb.dir/db/memtable.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/repair.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/repair.cc.o: ../leveldb/db/repair.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/repair.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/repair.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/repair.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/repair.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/repair.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/repair.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/repair.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/repair.cc > CMakeFiles/leveldb.dir/db/repair.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/repair.cc > CMakeFiles/leveldb.dir/db/repair.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/repair.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/repair.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/repair.cc -o CMakeFiles/leveldb.dir/db/repair.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/repair.cc -o CMakeFiles/leveldb.dir/db/repair.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/table_cache.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/table_cache.cc.o: ../leveldb/db/table_cache.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/table_cache.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/table_cache.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/table_cache.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/table_cache.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/table_cache.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/table_cache.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/table_cache.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/table_cache.cc > CMakeFiles/leveldb.dir/db/table_cache.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/table_cache.cc > CMakeFiles/leveldb.dir/db/table_cache.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/table_cache.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/table_cache.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/table_cache.cc -o CMakeFiles/leveldb.dir/db/table_cache.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/table_cache.cc -o CMakeFiles/leveldb.dir/db/table_cache.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/version_edit.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/version_edit.cc.o: ../leveldb/db/version_edit.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/version_edit.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/version_edit.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_edit.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/version_edit.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_edit.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/version_edit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/version_edit.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_edit.cc > CMakeFiles/leveldb.dir/db/version_edit.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_edit.cc > CMakeFiles/leveldb.dir/db/version_edit.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/version_edit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/version_edit.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_edit.cc -o CMakeFiles/leveldb.dir/db/version_edit.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_edit.cc -o CMakeFiles/leveldb.dir/db/version_edit.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/version_set.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/version_set.cc.o: ../leveldb/db/version_set.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/version_set.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/version_set.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_set.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/version_set.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_set.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/version_set.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/version_set.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_set.cc > CMakeFiles/leveldb.dir/db/version_set.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_set.cc > CMakeFiles/leveldb.dir/db/version_set.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/version_set.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/version_set.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_set.cc -o CMakeFiles/leveldb.dir/db/version_set.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/version_set.cc -o CMakeFiles/leveldb.dir/db/version_set.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/db/write_batch.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/db/write_batch.cc.o: ../leveldb/db/write_batch.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object leveldb/CMakeFiles/leveldb.dir/db/write_batch.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/write_batch.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/write_batch.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/db/write_batch.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/db/write_batch.cc
 
 leveldb/CMakeFiles/leveldb.dir/db/write_batch.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/db/write_batch.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/write_batch.cc > CMakeFiles/leveldb.dir/db/write_batch.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/db/write_batch.cc > CMakeFiles/leveldb.dir/db/write_batch.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/db/write_batch.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/db/write_batch.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/write_batch.cc -o CMakeFiles/leveldb.dir/db/write_batch.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/db/write_batch.cc -o CMakeFiles/leveldb.dir/db/write_batch.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/table/block_builder.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/table/block_builder.cc.o: ../leveldb/table/block_builder.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object leveldb/CMakeFiles/leveldb.dir/table/block_builder.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/block_builder.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/block_builder.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/block_builder.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/block_builder.cc
 
 leveldb/CMakeFiles/leveldb.dir/table/block_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/table/block_builder.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/block_builder.cc > CMakeFiles/leveldb.dir/table/block_builder.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/block_builder.cc > CMakeFiles/leveldb.dir/table/block_builder.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/table/block_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/table/block_builder.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/block_builder.cc -o CMakeFiles/leveldb.dir/table/block_builder.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/block_builder.cc -o CMakeFiles/leveldb.dir/table/block_builder.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/table/block.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/table/block.cc.o: ../leveldb/table/block.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object leveldb/CMakeFiles/leveldb.dir/table/block.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/block.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/block.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/block.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/block.cc
 
 leveldb/CMakeFiles/leveldb.dir/table/block.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/table/block.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/block.cc > CMakeFiles/leveldb.dir/table/block.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/block.cc > CMakeFiles/leveldb.dir/table/block.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/table/block.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/table/block.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/block.cc -o CMakeFiles/leveldb.dir/table/block.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/block.cc -o CMakeFiles/leveldb.dir/table/block.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/table/filter_block.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/table/filter_block.cc.o: ../leveldb/table/filter_block.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object leveldb/CMakeFiles/leveldb.dir/table/filter_block.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/filter_block.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/filter_block.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/filter_block.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/filter_block.cc
 
 leveldb/CMakeFiles/leveldb.dir/table/filter_block.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/table/filter_block.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/filter_block.cc > CMakeFiles/leveldb.dir/table/filter_block.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/filter_block.cc > CMakeFiles/leveldb.dir/table/filter_block.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/table/filter_block.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/table/filter_block.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/filter_block.cc -o CMakeFiles/leveldb.dir/table/filter_block.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/filter_block.cc -o CMakeFiles/leveldb.dir/table/filter_block.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/table/format.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/table/format.cc.o: ../leveldb/table/format.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object leveldb/CMakeFiles/leveldb.dir/table/format.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/format.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/format.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/format.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/format.cc
 
 leveldb/CMakeFiles/leveldb.dir/table/format.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/table/format.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/format.cc > CMakeFiles/leveldb.dir/table/format.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/format.cc > CMakeFiles/leveldb.dir/table/format.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/table/format.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/table/format.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/format.cc -o CMakeFiles/leveldb.dir/table/format.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/format.cc -o CMakeFiles/leveldb.dir/table/format.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/table/iterator.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/table/iterator.cc.o: ../leveldb/table/iterator.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object leveldb/CMakeFiles/leveldb.dir/table/iterator.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/iterator.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/iterator.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/iterator.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/iterator.cc
 
 leveldb/CMakeFiles/leveldb.dir/table/iterator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/table/iterator.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/iterator.cc > CMakeFiles/leveldb.dir/table/iterator.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/iterator.cc > CMakeFiles/leveldb.dir/table/iterator.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/table/iterator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/table/iterator.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/iterator.cc -o CMakeFiles/leveldb.dir/table/iterator.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/iterator.cc -o CMakeFiles/leveldb.dir/table/iterator.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/table/merger.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/table/merger.cc.o: ../leveldb/table/merger.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object leveldb/CMakeFiles/leveldb.dir/table/merger.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/merger.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/merger.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/merger.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/merger.cc
 
 leveldb/CMakeFiles/leveldb.dir/table/merger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/table/merger.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/merger.cc > CMakeFiles/leveldb.dir/table/merger.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/merger.cc > CMakeFiles/leveldb.dir/table/merger.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/table/merger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/table/merger.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/merger.cc -o CMakeFiles/leveldb.dir/table/merger.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/merger.cc -o CMakeFiles/leveldb.dir/table/merger.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/table/table_builder.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/table/table_builder.cc.o: ../leveldb/table/table_builder.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object leveldb/CMakeFiles/leveldb.dir/table/table_builder.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/table_builder.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/table_builder.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/table_builder.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/table_builder.cc
 
 leveldb/CMakeFiles/leveldb.dir/table/table_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/table/table_builder.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/table_builder.cc > CMakeFiles/leveldb.dir/table/table_builder.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/table_builder.cc > CMakeFiles/leveldb.dir/table/table_builder.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/table/table_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/table/table_builder.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/table_builder.cc -o CMakeFiles/leveldb.dir/table/table_builder.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/table_builder.cc -o CMakeFiles/leveldb.dir/table/table_builder.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/table/table.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/table/table.cc.o: ../leveldb/table/table.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object leveldb/CMakeFiles/leveldb.dir/table/table.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/table.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/table.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/table.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/table.cc
 
 leveldb/CMakeFiles/leveldb.dir/table/table.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/table/table.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/table.cc > CMakeFiles/leveldb.dir/table/table.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/table.cc > CMakeFiles/leveldb.dir/table/table.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/table/table.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/table/table.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/table.cc -o CMakeFiles/leveldb.dir/table/table.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/table.cc -o CMakeFiles/leveldb.dir/table/table.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/table/two_level_iterator.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/table/two_level_iterator.cc.o: ../leveldb/table/two_level_iterator.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object leveldb/CMakeFiles/leveldb.dir/table/two_level_iterator.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/two_level_iterator.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/two_level_iterator.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/table/two_level_iterator.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/table/two_level_iterator.cc
 
 leveldb/CMakeFiles/leveldb.dir/table/two_level_iterator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/table/two_level_iterator.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/two_level_iterator.cc > CMakeFiles/leveldb.dir/table/two_level_iterator.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/table/two_level_iterator.cc > CMakeFiles/leveldb.dir/table/two_level_iterator.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/table/two_level_iterator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/table/two_level_iterator.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/two_level_iterator.cc -o CMakeFiles/leveldb.dir/table/two_level_iterator.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/table/two_level_iterator.cc -o CMakeFiles/leveldb.dir/table/two_level_iterator.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/util/arena.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/util/arena.cc.o: ../leveldb/util/arena.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object leveldb/CMakeFiles/leveldb.dir/util/arena.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/arena.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/arena.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/arena.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/arena.cc
 
 leveldb/CMakeFiles/leveldb.dir/util/arena.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/util/arena.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/arena.cc > CMakeFiles/leveldb.dir/util/arena.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/arena.cc > CMakeFiles/leveldb.dir/util/arena.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/util/arena.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/util/arena.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/arena.cc -o CMakeFiles/leveldb.dir/util/arena.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/arena.cc -o CMakeFiles/leveldb.dir/util/arena.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/util/bloom.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/util/bloom.cc.o: ../leveldb/util/bloom.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object leveldb/CMakeFiles/leveldb.dir/util/bloom.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/bloom.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/bloom.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/bloom.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/bloom.cc
 
 leveldb/CMakeFiles/leveldb.dir/util/bloom.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/util/bloom.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/bloom.cc > CMakeFiles/leveldb.dir/util/bloom.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/bloom.cc > CMakeFiles/leveldb.dir/util/bloom.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/util/bloom.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/util/bloom.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/bloom.cc -o CMakeFiles/leveldb.dir/util/bloom.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/bloom.cc -o CMakeFiles/leveldb.dir/util/bloom.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/util/cache.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/util/cache.cc.o: ../leveldb/util/cache.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object leveldb/CMakeFiles/leveldb.dir/util/cache.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/cache.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/cache.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/cache.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/cache.cc
 
 leveldb/CMakeFiles/leveldb.dir/util/cache.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/util/cache.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/cache.cc > CMakeFiles/leveldb.dir/util/cache.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/cache.cc > CMakeFiles/leveldb.dir/util/cache.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/util/cache.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/util/cache.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/cache.cc -o CMakeFiles/leveldb.dir/util/cache.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/cache.cc -o CMakeFiles/leveldb.dir/util/cache.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/util/coding.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/util/coding.cc.o: ../leveldb/util/coding.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object leveldb/CMakeFiles/leveldb.dir/util/coding.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/coding.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/coding.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/coding.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/coding.cc
 
 leveldb/CMakeFiles/leveldb.dir/util/coding.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/util/coding.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/coding.cc > CMakeFiles/leveldb.dir/util/coding.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/coding.cc > CMakeFiles/leveldb.dir/util/coding.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/util/coding.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/util/coding.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/coding.cc -o CMakeFiles/leveldb.dir/util/coding.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/coding.cc -o CMakeFiles/leveldb.dir/util/coding.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/util/comparator.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/util/comparator.cc.o: ../leveldb/util/comparator.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object leveldb/CMakeFiles/leveldb.dir/util/comparator.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/comparator.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/comparator.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/comparator.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/comparator.cc
 
 leveldb/CMakeFiles/leveldb.dir/util/comparator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/util/comparator.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/comparator.cc > CMakeFiles/leveldb.dir/util/comparator.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/comparator.cc > CMakeFiles/leveldb.dir/util/comparator.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/util/comparator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/util/comparator.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/comparator.cc -o CMakeFiles/leveldb.dir/util/comparator.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/comparator.cc -o CMakeFiles/leveldb.dir/util/comparator.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/util/crc32c.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/util/crc32c.cc.o: ../leveldb/util/crc32c.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object leveldb/CMakeFiles/leveldb.dir/util/crc32c.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/crc32c.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/crc32c.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/crc32c.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/crc32c.cc
 
 leveldb/CMakeFiles/leveldb.dir/util/crc32c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/util/crc32c.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/crc32c.cc > CMakeFiles/leveldb.dir/util/crc32c.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/crc32c.cc > CMakeFiles/leveldb.dir/util/crc32c.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/util/crc32c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/util/crc32c.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/crc32c.cc -o CMakeFiles/leveldb.dir/util/crc32c.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/crc32c.cc -o CMakeFiles/leveldb.dir/util/crc32c.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/util/env.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/util/env.cc.o: ../leveldb/util/env.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object leveldb/CMakeFiles/leveldb.dir/util/env.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/env.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/env.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env.cc
 
 leveldb/CMakeFiles/leveldb.dir/util/env.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/util/env.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env.cc > CMakeFiles/leveldb.dir/util/env.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env.cc > CMakeFiles/leveldb.dir/util/env.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/util/env.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/util/env.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env.cc -o CMakeFiles/leveldb.dir/util/env.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env.cc -o CMakeFiles/leveldb.dir/util/env.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/util/filter_policy.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/util/filter_policy.cc.o: ../leveldb/util/filter_policy.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object leveldb/CMakeFiles/leveldb.dir/util/filter_policy.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/filter_policy.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/filter_policy.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/filter_policy.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/filter_policy.cc
 
 leveldb/CMakeFiles/leveldb.dir/util/filter_policy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/util/filter_policy.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/filter_policy.cc > CMakeFiles/leveldb.dir/util/filter_policy.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/filter_policy.cc > CMakeFiles/leveldb.dir/util/filter_policy.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/util/filter_policy.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/util/filter_policy.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/filter_policy.cc -o CMakeFiles/leveldb.dir/util/filter_policy.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/filter_policy.cc -o CMakeFiles/leveldb.dir/util/filter_policy.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/util/hash.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/util/hash.cc.o: ../leveldb/util/hash.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object leveldb/CMakeFiles/leveldb.dir/util/hash.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/hash.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/hash.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/hash.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/hash.cc
 
 leveldb/CMakeFiles/leveldb.dir/util/hash.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/util/hash.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/hash.cc > CMakeFiles/leveldb.dir/util/hash.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/hash.cc > CMakeFiles/leveldb.dir/util/hash.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/util/hash.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/util/hash.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/hash.cc -o CMakeFiles/leveldb.dir/util/hash.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/hash.cc -o CMakeFiles/leveldb.dir/util/hash.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/util/logging.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/util/logging.cc.o: ../leveldb/util/logging.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object leveldb/CMakeFiles/leveldb.dir/util/logging.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/logging.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/logging.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/logging.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/logging.cc
 
 leveldb/CMakeFiles/leveldb.dir/util/logging.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/util/logging.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/logging.cc > CMakeFiles/leveldb.dir/util/logging.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/logging.cc > CMakeFiles/leveldb.dir/util/logging.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/util/logging.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/util/logging.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/logging.cc -o CMakeFiles/leveldb.dir/util/logging.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/logging.cc -o CMakeFiles/leveldb.dir/util/logging.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/util/options.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/util/options.cc.o: ../leveldb/util/options.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object leveldb/CMakeFiles/leveldb.dir/util/options.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/options.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/options.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/options.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/options.cc
 
 leveldb/CMakeFiles/leveldb.dir/util/options.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/util/options.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/options.cc > CMakeFiles/leveldb.dir/util/options.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/options.cc > CMakeFiles/leveldb.dir/util/options.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/util/options.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/util/options.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/options.cc -o CMakeFiles/leveldb.dir/util/options.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/options.cc -o CMakeFiles/leveldb.dir/util/options.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/util/status.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/util/status.cc.o: ../leveldb/util/status.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object leveldb/CMakeFiles/leveldb.dir/util/status.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/status.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/status.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/status.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/status.cc
 
 leveldb/CMakeFiles/leveldb.dir/util/status.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/util/status.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/status.cc > CMakeFiles/leveldb.dir/util/status.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/status.cc > CMakeFiles/leveldb.dir/util/status.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/util/status.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/util/status.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/status.cc -o CMakeFiles/leveldb.dir/util/status.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/status.cc -o CMakeFiles/leveldb.dir/util/status.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/util/env_posix.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/util/env_posix.cc.o: ../leveldb/util/env_posix.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object leveldb/CMakeFiles/leveldb.dir/util/env_posix.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/env_posix.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/util/env_posix.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix.cc
 
 leveldb/CMakeFiles/leveldb.dir/util/env_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/util/env_posix.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix.cc > CMakeFiles/leveldb.dir/util/env_posix.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix.cc > CMakeFiles/leveldb.dir/util/env_posix.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/util/env_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/util/env_posix.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix.cc -o CMakeFiles/leveldb.dir/util/env_posix.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/util/env_posix.cc -o CMakeFiles/leveldb.dir/util/env_posix.cc.s
 
 leveldb/CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o: leveldb/CMakeFiles/leveldb.dir/flags.make
 leveldb/CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o: ../leveldb/helpers/memenv/memenv.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object leveldb/CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/helpers/memenv/memenv.cc
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o -c /Users/reebdeve/CLionProjects/CatLog/leveldb/helpers/memenv/memenv.cc
 
 leveldb/CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.i"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/helpers/memenv/memenv.cc > CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.i
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/leveldb/helpers/memenv/memenv.cc > CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.i
 
 leveldb/CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.s"
-	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/helpers/memenv/memenv.cc -o CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.s
+	cd /Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb && /opt/homebrew/Cellar/gcc/11.2.0/bin/g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/leveldb/helpers/memenv/memenv.cc -o CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.s
 
 # Object files for target leveldb
 leveldb_OBJECTS = \

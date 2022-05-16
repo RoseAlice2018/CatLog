@@ -89,11 +89,13 @@
 					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
 					<Add directory="/opt/homebrew/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 CatLog"/>
@@ -114,11 +116,13 @@
 					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
 					<Add directory="/opt/homebrew/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Makefile&quot;  VERBOSE=1 CatLog/fast"/>
@@ -144,11 +148,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 db_bench_sqlite3"/>
@@ -174,11 +180,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 db_bench_sqlite3/fast"/>
@@ -204,11 +212,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 db_bench"/>
@@ -234,11 +244,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 db_bench/fast"/>
@@ -258,11 +270,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 leveldbutil"/>
@@ -282,11 +296,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 leveldbutil/fast"/>
@@ -311,11 +327,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 c_test"/>
@@ -340,11 +358,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 c_test/fast"/>
@@ -369,11 +389,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 env_posix_test"/>
@@ -398,11 +420,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 env_posix_test/fast"/>
@@ -427,11 +451,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 leveldb_tests"/>
@@ -456,11 +482,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 leveldb_tests/fast"/>
@@ -482,11 +510,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 leveldb"/>
@@ -508,11 +538,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/Makefile&quot;  VERBOSE=1 leveldb/fast"/>
@@ -535,11 +567,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
@@ -562,11 +596,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
@@ -589,11 +625,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
@@ -616,11 +654,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
@@ -641,11 +681,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
@@ -666,11 +708,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
@@ -691,11 +735,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
@@ -716,11 +762,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/."/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
@@ -745,11 +793,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/../include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 benchmark_main"/>
@@ -774,11 +824,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/../include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 benchmark_main/fast"/>
@@ -803,11 +855,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/../include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 benchmark"/>
@@ -832,11 +886,13 @@
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/include"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src"/>
 					<Add directory="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/../include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark/src/Makefile&quot;  VERBOSE=1 benchmark/fast"/>
@@ -853,11 +909,13 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/opt/homebrew/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/Makefile&quot;  VERBOSE=1 Log"/>
@@ -874,11 +932,13 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/opt/homebrew/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/aarch64-apple-darwin20"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/../../../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include"/>
+					<Add directory="/opt/homebrew/Cellar/gcc/11.2.0/lib/gcc/11/gcc/aarch64-apple-darwin20/11.1.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/Makefile&quot;  VERBOSE=1 Log/fast"/>
@@ -1573,6 +1633,18 @@
 			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
 		</Unit>
 		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/benchmark.pc.in">
+			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/gnu_posix_regex.cpp">
+			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/posix_regex.cpp">
+			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/std_regex.cpp">
+			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/steady_clock.cpp">
 			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
 		</Unit>
 		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/CMakeLists.txt">
