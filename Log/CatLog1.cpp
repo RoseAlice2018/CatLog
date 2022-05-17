@@ -353,15 +353,17 @@ namespace CatLog {
         log(LogLevel::FATAL, event);
     }
 
-
-    DataBaseAppender::DataBaseAppender( leveldb::DB *db_input)
-                :m_db(db_input) {
+    std::string DataBaseAppender::toYamlString() {
+        return "";
+    }
+    DataBaseAppender::DataBaseAppender( )
+    {
         m_options = leveldb::Options();
         m_options.create_if_missing = true;
         m_status = leveldb::DB::Open(m_options,"./testdb",&m_db);
         assert(m_status.ok());
     }
-    void setValue(std::string value,LogEvent::ptr event)
+    void setValue(std::string& value,LogEvent::ptr event)
     {
         //时间
         value += std::to_string(event->getTime());
@@ -381,12 +383,18 @@ namespace CatLog {
             std::string key = std::to_string(event->getTime());
             std::string value;
             setValue(value,event);
+            //std::cout<<value<<" value here"<<std::endl;
             m_db->Put(leveldb::WriteOptions(),key,value);
+        }
+        else {
+            std::cout<<"leveldb problem"<<std::endl;
         }
     }
     std::string DataBaseAppender::getLog(std::string key) {
         std::string value;
-        m_db->Get(leveldb::ReadOptions(),key,&value);
+        leveldb::Status t =  m_db->Get(leveldb::ReadOptions(),key,&value);
+        //std::cout<<t.ok()<<std::endl;
+        //std::cout<<value<<"at least has value"<<std::endl;
         return value;
     }
 

@@ -543,9 +543,10 @@ namespace CatLog {
     class DataBaseAppender : public LogAppender{
     public:
         typedef std::shared_ptr<DataBaseAppender> ptr;
-        DataBaseAppender(leveldb::DB* db_input);
+        DataBaseAppender();
         void log(Logger::ptr logger,LogLevel::Level level,LogEvent::ptr event) override;
         std::string getLog(std::string key);
+        std::string toYamlString() override;
     private:
         // 数据库
         leveldb::DB* m_db;
