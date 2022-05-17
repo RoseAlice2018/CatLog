@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK
 
-CXX_INCLUDES = -I/Users/reebdeve/CLionProjects/CatLog/leveldb/include -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/reebdeve/CLionProjects/CatLog/Log/leveldb/include -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Werror -Wthread-safety -std=gnu++14
 

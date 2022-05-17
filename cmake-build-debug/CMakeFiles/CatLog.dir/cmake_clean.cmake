@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CatLog.dir/main.cpp.o"
+  "CMakeFiles/CatLog.dir/Log/main.cpp.o"
   "CatLog"
   "CatLog.pdb"
 )

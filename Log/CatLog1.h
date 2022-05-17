@@ -19,7 +19,7 @@
 #include "util.h"
 #include "singleton.h"
 #include "thread.h"
-
+#include "leveldb/db.h"
 /**
  * @brief 使用流式方式将日志级别level的日志写入到logger
  */
@@ -537,7 +537,21 @@ namespace CatLog {
         /// 主日志器
         Logger::ptr m_root;
     };
-
+/**
+ * @brief 输出到数据库的Appender
+ */
+    class DataBaseAppender : public LogAppender{
+    public:
+        typedef std::shared_ptr<DataBaseAppender> ptr;
+        DataBaseAppender(leveldb::DB* db_input);
+        void log(Logger::ptr logger,LogLevel::Level level,LogEvent::ptr event) override;
+        std::string getLog(std::string key);
+    private:
+        // 数据库
+        leveldb::DB* m_db;
+        leveldb::Options m_options;
+        leveldb::Status m_status;
+    };
 /**
  * @brief 输出到控制台的Appender
  */

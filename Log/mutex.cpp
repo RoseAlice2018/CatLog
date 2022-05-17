@@ -9,13 +9,13 @@
 namespace CatLog {
 
     Semaphore::Semaphore(uint32_t count) {
-        if(sem_init(&m_semaphore, 0, count)) {
-            throw std::logic_error("sem_init error");
-        }
+//        if(sem_init(&m_semaphore, 0, count)) {
+//            throw std::logic_error("sem_init error");
+//        }
     }
 
     Semaphore::~Semaphore() {
-        sem_destroy(&m_semaphore);
+        //sem_destroy(&m_semaphore);
     }
 
     void Semaphore::wait() {

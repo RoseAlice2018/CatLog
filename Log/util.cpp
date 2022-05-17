@@ -23,7 +23,9 @@ namespace CatLog {
     static CatLog::Logger::ptr g_logger = CatLog_LOG_NAME("system");
 
     pid_t GetThreadId() {
-        return syscall(SYS_gettid);
+        //return syscall(SYS_gettid);
+
+        return 0;
     }
 
     uint32_t GetFiberId() {

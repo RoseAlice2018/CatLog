@@ -22,6 +22,7 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/homebrew/include"
+  "../Log/leveldb/include"
   )
 
 # The set of dependency files which are needed:
@@ -30,6 +31,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/leveldb/CMakeFiles/leveldb.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

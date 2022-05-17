@@ -366,10 +366,10 @@ LIBRT:FILEPATH=LIBRT-NOTFOUND
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
 //Value Computed by CMake
-benchmark_BINARY_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/benchmark
+benchmark_BINARY_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/leveldb/third_party/benchmark
 
 //Value Computed by CMake
-benchmark_SOURCE_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark
+benchmark_SOURCE_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/Log/leveldb/third_party/benchmark
 
 //Dependencies for the target
 benchmark_main_LIB_DEPENDS:STATIC=general;benchmark::benchmark;
@@ -384,13 +384,13 @@ boost_headers_DIR:PATH=/opt/homebrew/lib/cmake/boost_headers-1.76.0
 boost_system_DIR:PATH=/opt/homebrew/lib/cmake/boost_system-1.76.0
 
 //Value Computed by CMake
-gmock_BINARY_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googlemock
+gmock_BINARY_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/leveldb/third_party/googletest/googlemock
 
 //Dependencies for the target
 gmock_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googlemock
+gmock_SOURCE_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/Log/leveldb/third_party/googletest/googlemock
 
 //Build all of Google Mock's own tests.
 gmock_build_tests:BOOL=OFF
@@ -399,16 +399,16 @@ gmock_build_tests:BOOL=OFF
 gmock_main_LIB_DEPENDS:STATIC=general;gmock;
 
 //Value Computed by CMake
-googletest-distribution_BINARY_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest
+googletest-distribution_BINARY_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/leveldb/third_party/googletest
 
 //Value Computed by CMake
-googletest-distribution_SOURCE_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest
+googletest-distribution_SOURCE_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/Log/leveldb/third_party/googletest
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest
+gtest_BINARY_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/leveldb/third_party/googletest/googletest
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/googletest/googletest
+gtest_SOURCE_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/Log/leveldb/third_party/googletest/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -430,10 +430,10 @@ gtest_hide_internal_symbols:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
-leveldb_BINARY_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb
+leveldb_BINARY_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/leveldb
 
 //Value Computed by CMake
-leveldb_SOURCE_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/leveldb
+leveldb_SOURCE_DIR:STATIC=/Users/reebdeve/CLionProjects/CatLog/Log/leveldb
 
 //The directory containing a CMake configuration file for yaml-cpp.
 yaml-cpp_DIR:PATH=/opt/homebrew/lib/cmake/yaml-cpp
@@ -726,7 +726,7 @@ boost_headers_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_system_DIR
 boost_system_DIR-ADVANCED:INTERNAL=1
 cmake_package_name:INTERNAL=GTest
-generated_dir:INTERNAL=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/third_party/googletest/googletest/generated
+generated_dir:INTERNAL=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/leveldb/third_party/googletest/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples

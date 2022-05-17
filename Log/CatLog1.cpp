@@ -353,6 +353,43 @@ namespace CatLog {
         log(LogLevel::FATAL, event);
     }
 
+
+    DataBaseAppender::DataBaseAppender( leveldb::DB *db_input)
+                :m_db(db_input) {
+        m_options = leveldb::Options();
+        m_options.create_if_missing = true;
+        m_status = leveldb::DB::Open(m_options,"./testdb",&m_db);
+        assert(m_status.ok());
+    }
+    void setValue(std::string value,LogEvent::ptr event)
+    {
+        //时间
+        value += std::to_string(event->getTime());
+        //行号
+        value += std::to_string(event->getLine());
+        //线程ID
+        value += std::to_string(event->getThreadId());
+        //协程ID
+        value += std::to_string(event->getFiberId());
+        //线程名称
+        value += std::to_string(event->getThreadId());
+        //日志内容
+        value += event->getContent();
+    }
+    void DataBaseAppender::log(Logger::ptr logger, LogLevel::Level level, LogEvent::ptr event) {
+        if(level >= m_level){
+            std::string key = std::to_string(event->getTime());
+            std::string value;
+            setValue(value,event);
+            m_db->Put(leveldb::WriteOptions(),key,value);
+        }
+    }
+    std::string DataBaseAppender::getLog(std::string key) {
+        std::string value;
+        m_db->Get(leveldb::ReadOptions(),key,&value);
+        return value;
+    }
+
     FileLogAppender::FileLogAppender(const std::string& filename)
             :m_filename(filename) {
         reopen();

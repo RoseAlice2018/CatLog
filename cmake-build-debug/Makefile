@@ -175,175 +175,6 @@ CatLog/fast:
 .PHONY : CatLog/fast
 
 #=============================================================================
-# Target rules for targets named db_bench_sqlite3
-
-# Build rule for target.
-db_bench_sqlite3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 db_bench_sqlite3
-.PHONY : db_bench_sqlite3
-
-# fast build rule for target.
-db_bench_sqlite3/fast:
-	$(MAKE) $(MAKESILENT) -f leveldb/CMakeFiles/db_bench_sqlite3.dir/build.make leveldb/CMakeFiles/db_bench_sqlite3.dir/build
-.PHONY : db_bench_sqlite3/fast
-
-#=============================================================================
-# Target rules for targets named db_bench
-
-# Build rule for target.
-db_bench: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 db_bench
-.PHONY : db_bench
-
-# fast build rule for target.
-db_bench/fast:
-	$(MAKE) $(MAKESILENT) -f leveldb/CMakeFiles/db_bench.dir/build.make leveldb/CMakeFiles/db_bench.dir/build
-.PHONY : db_bench/fast
-
-#=============================================================================
-# Target rules for targets named leveldbutil
-
-# Build rule for target.
-leveldbutil: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leveldbutil
-.PHONY : leveldbutil
-
-# fast build rule for target.
-leveldbutil/fast:
-	$(MAKE) $(MAKESILENT) -f leveldb/CMakeFiles/leveldbutil.dir/build.make leveldb/CMakeFiles/leveldbutil.dir/build
-.PHONY : leveldbutil/fast
-
-#=============================================================================
-# Target rules for targets named c_test
-
-# Build rule for target.
-c_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_test
-.PHONY : c_test
-
-# fast build rule for target.
-c_test/fast:
-	$(MAKE) $(MAKESILENT) -f leveldb/CMakeFiles/c_test.dir/build.make leveldb/CMakeFiles/c_test.dir/build
-.PHONY : c_test/fast
-
-#=============================================================================
-# Target rules for targets named env_posix_test
-
-# Build rule for target.
-env_posix_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 env_posix_test
-.PHONY : env_posix_test
-
-# fast build rule for target.
-env_posix_test/fast:
-	$(MAKE) $(MAKESILENT) -f leveldb/CMakeFiles/env_posix_test.dir/build.make leveldb/CMakeFiles/env_posix_test.dir/build
-.PHONY : env_posix_test/fast
-
-#=============================================================================
-# Target rules for targets named leveldb_tests
-
-# Build rule for target.
-leveldb_tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leveldb_tests
-.PHONY : leveldb_tests
-
-# fast build rule for target.
-leveldb_tests/fast:
-	$(MAKE) $(MAKESILENT) -f leveldb/CMakeFiles/leveldb_tests.dir/build.make leveldb/CMakeFiles/leveldb_tests.dir/build
-.PHONY : leveldb_tests/fast
-
-#=============================================================================
-# Target rules for targets named leveldb
-
-# Build rule for target.
-leveldb: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leveldb
-.PHONY : leveldb
-
-# fast build rule for target.
-leveldb/fast:
-	$(MAKE) $(MAKESILENT) -f leveldb/CMakeFiles/leveldb.dir/build.make leveldb/CMakeFiles/leveldb.dir/build
-.PHONY : leveldb/fast
-
-#=============================================================================
-# Target rules for targets named gmock
-
-# Build rule for target.
-gmock: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock
-.PHONY : gmock
-
-# fast build rule for target.
-gmock/fast:
-	$(MAKE) $(MAKESILENT) -f leveldb/third_party/googletest/googlemock/CMakeFiles/gmock.dir/build.make leveldb/third_party/googletest/googlemock/CMakeFiles/gmock.dir/build
-.PHONY : gmock/fast
-
-#=============================================================================
-# Target rules for targets named gmock_main
-
-# Build rule for target.
-gmock_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main
-.PHONY : gmock_main
-
-# fast build rule for target.
-gmock_main/fast:
-	$(MAKE) $(MAKESILENT) -f leveldb/third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make leveldb/third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/build
-.PHONY : gmock_main/fast
-
-#=============================================================================
-# Target rules for targets named gtest_main
-
-# Build rule for target.
-gtest_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
-.PHONY : gtest_main
-
-# fast build rule for target.
-gtest_main/fast:
-	$(MAKE) $(MAKESILENT) -f leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build.make leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build
-.PHONY : gtest_main/fast
-
-#=============================================================================
-# Target rules for targets named gtest
-
-# Build rule for target.
-gtest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
-.PHONY : gtest
-
-# fast build rule for target.
-gtest/fast:
-	$(MAKE) $(MAKESILENT) -f leveldb/third_party/googletest/googletest/CMakeFiles/gtest.dir/build.make leveldb/third_party/googletest/googletest/CMakeFiles/gtest.dir/build
-.PHONY : gtest/fast
-
-#=============================================================================
-# Target rules for targets named benchmark_main
-
-# Build rule for target.
-benchmark_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 benchmark_main
-.PHONY : benchmark_main
-
-# fast build rule for target.
-benchmark_main/fast:
-	$(MAKE) $(MAKESILENT) -f leveldb/third_party/benchmark/src/CMakeFiles/benchmark_main.dir/build.make leveldb/third_party/benchmark/src/CMakeFiles/benchmark_main.dir/build
-.PHONY : benchmark_main/fast
-
-#=============================================================================
-# Target rules for targets named benchmark
-
-# Build rule for target.
-benchmark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 benchmark
-.PHONY : benchmark
-
-# fast build rule for target.
-benchmark/fast:
-	$(MAKE) $(MAKESILENT) -f leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/build.make leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/build
-.PHONY : benchmark/fast
-
-#=============================================================================
 # Target rules for targets named Log
 
 # Build rule for target.
@@ -356,29 +187,198 @@ Log/fast:
 	$(MAKE) $(MAKESILENT) -f Log/CMakeFiles/Log.dir/build.make Log/CMakeFiles/Log.dir/build
 .PHONY : Log/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+#=============================================================================
+# Target rules for targets named db_bench_sqlite3
+
+# Build rule for target.
+db_bench_sqlite3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 db_bench_sqlite3
+.PHONY : db_bench_sqlite3
+
+# fast build rule for target.
+db_bench_sqlite3/fast:
+	$(MAKE) $(MAKESILENT) -f Log/leveldb/CMakeFiles/db_bench_sqlite3.dir/build.make Log/leveldb/CMakeFiles/db_bench_sqlite3.dir/build
+.PHONY : db_bench_sqlite3/fast
+
+#=============================================================================
+# Target rules for targets named db_bench
+
+# Build rule for target.
+db_bench: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 db_bench
+.PHONY : db_bench
+
+# fast build rule for target.
+db_bench/fast:
+	$(MAKE) $(MAKESILENT) -f Log/leveldb/CMakeFiles/db_bench.dir/build.make Log/leveldb/CMakeFiles/db_bench.dir/build
+.PHONY : db_bench/fast
+
+#=============================================================================
+# Target rules for targets named leveldbutil
+
+# Build rule for target.
+leveldbutil: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leveldbutil
+.PHONY : leveldbutil
+
+# fast build rule for target.
+leveldbutil/fast:
+	$(MAKE) $(MAKESILENT) -f Log/leveldb/CMakeFiles/leveldbutil.dir/build.make Log/leveldb/CMakeFiles/leveldbutil.dir/build
+.PHONY : leveldbutil/fast
+
+#=============================================================================
+# Target rules for targets named c_test
+
+# Build rule for target.
+c_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_test
+.PHONY : c_test
+
+# fast build rule for target.
+c_test/fast:
+	$(MAKE) $(MAKESILENT) -f Log/leveldb/CMakeFiles/c_test.dir/build.make Log/leveldb/CMakeFiles/c_test.dir/build
+.PHONY : c_test/fast
+
+#=============================================================================
+# Target rules for targets named env_posix_test
+
+# Build rule for target.
+env_posix_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 env_posix_test
+.PHONY : env_posix_test
+
+# fast build rule for target.
+env_posix_test/fast:
+	$(MAKE) $(MAKESILENT) -f Log/leveldb/CMakeFiles/env_posix_test.dir/build.make Log/leveldb/CMakeFiles/env_posix_test.dir/build
+.PHONY : env_posix_test/fast
+
+#=============================================================================
+# Target rules for targets named leveldb_tests
+
+# Build rule for target.
+leveldb_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leveldb_tests
+.PHONY : leveldb_tests
+
+# fast build rule for target.
+leveldb_tests/fast:
+	$(MAKE) $(MAKESILENT) -f Log/leveldb/CMakeFiles/leveldb_tests.dir/build.make Log/leveldb/CMakeFiles/leveldb_tests.dir/build
+.PHONY : leveldb_tests/fast
+
+#=============================================================================
+# Target rules for targets named leveldb
+
+# Build rule for target.
+leveldb: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 leveldb
+.PHONY : leveldb
+
+# fast build rule for target.
+leveldb/fast:
+	$(MAKE) $(MAKESILENT) -f Log/leveldb/CMakeFiles/leveldb.dir/build.make Log/leveldb/CMakeFiles/leveldb.dir/build
+.PHONY : leveldb/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f Log/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock.dir/build.make Log/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f Log/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make Log/leveldb/third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f Log/leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build.make Log/leveldb/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f Log/leveldb/third_party/googletest/googletest/CMakeFiles/gtest.dir/build.make Log/leveldb/third_party/googletest/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named benchmark_main
+
+# Build rule for target.
+benchmark_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 benchmark_main
+.PHONY : benchmark_main
+
+# fast build rule for target.
+benchmark_main/fast:
+	$(MAKE) $(MAKESILENT) -f Log/leveldb/third_party/benchmark/src/CMakeFiles/benchmark_main.dir/build.make Log/leveldb/third_party/benchmark/src/CMakeFiles/benchmark_main.dir/build
+.PHONY : benchmark_main/fast
+
+#=============================================================================
+# Target rules for targets named benchmark
+
+# Build rule for target.
+benchmark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 benchmark
+.PHONY : benchmark
+
+# fast build rule for target.
+benchmark/fast:
+	$(MAKE) $(MAKESILENT) -f Log/leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/build.make Log/leveldb/third_party/benchmark/src/CMakeFiles/benchmark.dir/build
+.PHONY : benchmark/fast
+
+Log/main.o: Log/main.cpp.o
+.PHONY : Log/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatLog.dir/build.make CMakeFiles/CatLog.dir/main.cpp.o
-.PHONY : main.cpp.o
+Log/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatLog.dir/build.make CMakeFiles/CatLog.dir/Log/main.cpp.o
+.PHONY : Log/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+Log/main.i: Log/main.cpp.i
+.PHONY : Log/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatLog.dir/build.make CMakeFiles/CatLog.dir/main.cpp.i
-.PHONY : main.cpp.i
+Log/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatLog.dir/build.make CMakeFiles/CatLog.dir/Log/main.cpp.i
+.PHONY : Log/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Log/main.s: Log/main.cpp.s
+.PHONY : Log/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatLog.dir/build.make CMakeFiles/CatLog.dir/main.cpp.s
-.PHONY : main.cpp.s
+Log/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CatLog.dir/build.make CMakeFiles/CatLog.dir/Log/main.cpp.s
+.PHONY : Log/main.cpp.s
 
 # Help Target
 help:
@@ -407,9 +407,9 @@ help:
 	@echo "... leveldb"
 	@echo "... leveldb_tests"
 	@echo "... leveldbutil"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Log/main.o"
+	@echo "... Log/main.i"
+	@echo "... Log/main.s"
 .PHONY : help
 
 

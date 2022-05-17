@@ -39,11 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/leveldb/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/Log/cmake_install.cmake")
 endif()
 

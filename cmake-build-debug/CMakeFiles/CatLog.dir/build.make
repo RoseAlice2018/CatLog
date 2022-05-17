@@ -66,33 +66,33 @@ include CMakeFiles/CatLog.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CatLog.dir/flags.make
 
-CMakeFiles/CatLog.dir/main.cpp.o: CMakeFiles/CatLog.dir/flags.make
-CMakeFiles/CatLog.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CatLog.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CatLog.dir/main.cpp.o -c /Users/reebdeve/CLionProjects/CatLog/main.cpp
+CMakeFiles/CatLog.dir/Log/main.cpp.o: CMakeFiles/CatLog.dir/flags.make
+CMakeFiles/CatLog.dir/Log/main.cpp.o: ../Log/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CatLog.dir/Log/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CatLog.dir/Log/main.cpp.o -c /Users/reebdeve/CLionProjects/CatLog/Log/main.cpp
 
-CMakeFiles/CatLog.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CatLog.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/main.cpp > CMakeFiles/CatLog.dir/main.cpp.i
+CMakeFiles/CatLog.dir/Log/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CatLog.dir/Log/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/reebdeve/CLionProjects/CatLog/Log/main.cpp > CMakeFiles/CatLog.dir/Log/main.cpp.i
 
-CMakeFiles/CatLog.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CatLog.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/main.cpp -o CMakeFiles/CatLog.dir/main.cpp.s
+CMakeFiles/CatLog.dir/Log/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CatLog.dir/Log/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/reebdeve/CLionProjects/CatLog/Log/main.cpp -o CMakeFiles/CatLog.dir/Log/main.cpp.s
 
 # Object files for target CatLog
 CatLog_OBJECTS = \
-"CMakeFiles/CatLog.dir/main.cpp.o"
+"CMakeFiles/CatLog.dir/Log/main.cpp.o"
 
 # External object files for target CatLog
 CatLog_EXTERNAL_OBJECTS =
 
-CatLog: CMakeFiles/CatLog.dir/main.cpp.o
+CatLog: CMakeFiles/CatLog.dir/Log/main.cpp.o
 CatLog: CMakeFiles/CatLog.dir/build.make
-CatLog: leveldb/libleveldb.a
 CatLog: Log/libLog.a
 CatLog: /opt/homebrew/lib/libboost_system-mt.dylib
 CatLog: /opt/homebrew/lib/libboost_filesystem-mt.dylib
 CatLog: /opt/homebrew/lib/libyaml-cpp.0.6.3.dylib
+CatLog: Log/leveldb/libleveldb.a
 CatLog: CMakeFiles/CatLog.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/reebdeve/CLionProjects/CatLog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CatLog"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CatLog.dir/link.txt --verbose=$(VERBOSE)

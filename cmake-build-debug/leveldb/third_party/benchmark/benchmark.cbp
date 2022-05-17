@@ -380,21 +380,6 @@
 		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/benchmark.pc.in">
 			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/gnu_posix_regex.cpp">
-			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/posix_regex.cpp">
-			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/std_regex.cpp">
-			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/steady_clock.cpp">
-			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
-		</Unit>
-		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/cmake/thread_safety_attributes.cpp">
-			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\cmake\"/>
-		</Unit>
 		<Unit filename="/Users/reebdeve/CLionProjects/CatLog/leveldb/third_party/benchmark/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\leveldb\third_party\benchmark\src\"/>
 		</Unit>
